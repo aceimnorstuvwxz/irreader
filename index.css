@@ -49,8 +49,8 @@ sup{
     margin: 15px auto;
     outline: none;
     padding: 0.5em 1em;
-    background: rgb(153, 255, 133);
-    color: rgb(78, 187, 0);
+    background: #F8E71C;
+    color: rgb(169, 157, 22);
 }
 .shwotext>p{
     color: #333 !important;
@@ -145,4 +145,8 @@ h3{
 .btn_download2{
     padding: 1em 2em;
     display: inline;
+}
+
+#foot3{
+    font-size: 10px;
 }
