@@ -1,11 +1,11 @@
-# LIKE·FEED 立刻阅读 产品页
+# irreader 立刻阅读器
 
 订阅网页、RSS和Podcast，具备急速的阅读体验，高品质、免费、无广告、多平台的RSS阅读器。
 
 
 ### Download
 
-[Installer](http://likefeed.netqon.com/) 
+[Installer](http://irreader.netqon.com/)
 
 
 ### Screen captures
