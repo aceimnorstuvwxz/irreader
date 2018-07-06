@@ -10,14 +10,14 @@
 
 ### Screen captures
 
-![](libs/c/0.png)
+![](content/libs/c/0.png)
 
-![](libs/c/1.png)
+![](content/libs/c/1.png)
 
-![](libs/c/2.png)
+![](content/libs/c/2.png)
 
 ### Features
 
-![](libs/mkt_0.png)
+![](content/libs/mkt_0.png)
 
 （C) 2018 netqon.com

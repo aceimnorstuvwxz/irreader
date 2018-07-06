@@ -3,6 +3,12 @@ p,pre{
     color: #666;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+a{
+    color: rgb(0, 98, 150);
+}
+a:visited{
+    color: rgb(0, 98, 150);
+}
 
 h3{
     font-family: Arial, Helvetica, sans-serif;
@@ -76,4 +82,33 @@ h3{
     color: #999;
     font-size: 10px;
     font-weight: bold;
+}
+
+.big-entry{
+    background: #EEE;
+    padding: 20px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.big-entry:hover{
+    background: #DDD;
+    font-weight: bold;
+}
+
+
+.alert{
+    color: rebeccapurple;
+}
+
+.sub-title{
+    font-size: 12px;
+}
+
+
+.foot{
+    font-size: 10px;
+    color: #AAA;
 }
