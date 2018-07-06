@@ -10,11 +10,15 @@
 
 ### Screen captures
 
-![](content/libs/c/0.png)
-
 ![](content/libs/c/1.png)
 
 ![](content/libs/c/2.png)
+
+![](content/libs/c/3.png)
+
+![](content/libs/c/4.png)
+
+![](content/libs/c/5.png)
 
 ### Features
 
