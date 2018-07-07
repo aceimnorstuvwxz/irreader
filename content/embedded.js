@@ -18,6 +18,21 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 var g_targets = [
+
+    {
+        name: "鬼影人间",
+        category: "播客节目",
+        desc: "心慌慌，听恐怖故事",
+        icon: "http://fate2.oss-cn-shanghai.aliyuncs.com/feed-icons/gui.png",
+        link: "likefeed://add-remote?name=%E9%AC%BC%E5%BD%B1%E4%BA%BA%E9%97%B4&source=http%3A%2F%2Fwww.ximalaya.com%2Falbum%2F226702.xml&type=1&csser=&min_len=0&desc=%E4%BD%A0%E7%9A%84%E8%83%86%E5%AD%90%E5%A4%A7%E5%90%97%EF%BC%9F&icon=http%3A%2F%2Ffate2.oss-cn-shanghai.aliyuncs.com%2Ffeed-icons%2Fgui.png&charset=utf-8&config=%7B%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
+    }, 
+    {
+        name: "36Kr-NEXT",
+        category: "创业和产品",
+        desc: "不错过任何一个新产品",
+        icon: "http://next.36kr.com/favicon.ico",
+        link: "likefeed://add-remote?name=36kr-NEXT&source=http%3A%2F%2Fnext.36kr.com%2Ffeed&type=1&csser=&min_len=0&desc=%E4%B8%8D%E9%94%99%E8%BF%87%E4%BB%BB%E4%BD%95%E4%B8%80%E4%B8%AA%E6%96%B0%E4%BA%A7%E5%93%81&icon=http%3A%2F%2Fnext.36kr.com%2Ffavicon.ico&charset=utf-8&config=%7B%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
+    }, 
     {
         name: "晓说2018",
         category: "播客节目",
@@ -35,7 +50,8 @@ var g_targets = [
 ]
 
 function init_recommend_targets(){
-    g_targets.forEach((target)=>{
+    //只放3个
+    g_targets.slice(0,3).forEach((target)=>{
         var new_ele = $('#target_template').clone()
         new_ele.removeAttr('id')
         new_ele.find('img').attr("src", target.icon)

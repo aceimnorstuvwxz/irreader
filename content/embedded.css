@@ -31,7 +31,7 @@ h3{
 
 .target-item{
     display: grid;
-    grid-template-columns: 80px 250px;
+    grid-template-columns: 80px 220px;
     margin: 5px 10px;
     cursor: pointer;
     padding: 10px 12px;
@@ -89,11 +89,12 @@ h3{
 
 .big-entry{
     background: #EEE;
-    padding: 20px 20px;
+    padding: 10px 20px;
     display: inline-block;
     border-radius: 5px;
     text-decoration: none;
     margin: 5px;
+    color: #333!important;
 }
 
 .big-entry:hover{
@@ -103,7 +104,7 @@ h3{
 
 
 .alert{
-    color: rebeccapurple;
+    color: purple;
 }
 
 .sub-title{
@@ -113,5 +114,19 @@ h3{
 
 .foot{
     font-size: 10px;
-    color: #AAA;
+    color: #CCC;
+}
+
+.hight{
+    color: red;
+}
+.note{
+    color: gray;
+    font-size: 12px;
+}
+
+#corner{
+    position: fixed;
+    right: 0px;
+    top:0px;
 }
