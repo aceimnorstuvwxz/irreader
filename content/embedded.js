@@ -18,7 +18,20 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 var g_targets = [
-
+    {
+        name: "VICE中国",
+        category: "历史文化",
+        desc: "世界在下沉，我们在狂欢",
+        icon: "http://www.vice.cn/public/assets/images/vice/favicons/favicon-128.png",
+        link: "likefeed://add-remote?name=VICE%E4%B8%AD%E5%9B%BD&source=http%3A%2F%2Fwww.vice.cn%2Findex%2Frss%2F&type=1&csser=&min_len=0&desc=%E5%85%A8%E7%90%83%E9%9D%92%E5%B9%B4%E6%96%87%E5%8C%96%E4%B9%8B%E5%A3%B0%EF%BC%9A%E4%B8%96%E7%95%8C%E5%9C%A8%E4%B8%8B%E6%B2%89%EF%BC%8C%E6%88%91%E4%BB%AC%E5%9C%A8%E7%8B%82%E6%AC%A2&icon=http%3A%2F%2Fwww.vice.cn%2Fpublic%2Fassets%2Fimages%2Fvice%2Ffavicons%2Ffavicon-128.png&charset=utf-8&config=%7B%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
+    }, 
+    {
+        name: "豆瓣电影热门影评",
+        category: "电影图书",
+        desc: "在国情下，道说银幕之外",
+        icon: "https://img3.doubanio.com/f/movie/d59b2715fdea4968a450ee5f6c95c7d7a2030065/pics/movie/apple-touch-icon.png",
+        link: "likefeed://add-remote?name=%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1%E7%83%AD%E9%97%A8%E5%BD%B1%E8%AF%84&source=https%3A%2F%2Fmovie.douban.com%2F&type=0&csser=.review-bd%20h3%20a&min_len=0&desc=%E5%B0%8F%E5%BF%83%E8%A2%AB%E5%89%A7%E9%80%8F&icon=https%3A%2F%2Fimg3.doubanio.com%2Ff%2Fmovie%2Fd59b2715fdea4968a450ee5f6c95c7d7a2030065%2Fpics%2Fmovie%2Fapple-touch-icon.png&charset=utf-8&config=%7B%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
+    }, 
     {
         name: "鬼影人间",
         category: "播客节目",
