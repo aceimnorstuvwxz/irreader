@@ -19,11 +19,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
 var g_targets = [
     {
-        name: "罗永浩的微博",
-        category: "人物和组织",
-        desc: "Smartisan，智能机时代的工匠",
-        icon: "https://wx3.sinaimg.cn/orj480/61c921e5ly8fr5m0ndq7nj20s20s23yr.jpg",
-        link: "likefeed://add-remote?name=%E7%BD%97%E6%B0%B8%E6%B5%A9%E7%9A%84%E5%BE%AE%E5%8D%9A&source=https%3A%2F%2Fapi.izgq.net%2Fweibo%2Frss%2F1640571365&type=1&csser=&min_len=0&desc=Smartisan%EF%BC%8C%E6%99%BA%E8%83%BD%E6%9C%BA%E6%97%B6%E4%BB%A3%E7%9A%84%E5%B7%A5%E5%8C%A0&icon=https%3A%2F%2Fwx3.sinaimg.cn%2Forj480%2F61c921e5ly8fr5m0ndq7nj20s20s23yr.jpg&charset=utf-8&config=%7B%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
+        name: "TED Radio Hour",
+        category: "播客",
+        desc: "英语",
+        icon: "http://fate2.oss-cn-shanghai.aliyuncs.com/feed-icons/ted.jpg",
+        link: "likefeed://add-remote?name=TED%20Radio%20Hour&source=https%3A%2F%2Fwww.npr.org%2Frss%2Fpodcast.php%3Fid%3D510298&type=1&csser=&min_len=0&desc=%E3%80%90%E5%8A%A0%E8%BD%BD%E8%BE%83%E6%85%A2%E3%80%91%E8%8B%B1%E8%AF%AD&icon=http%3A%2F%2Ffate2.oss-cn-shanghai.aliyuncs.com%2Ffeed-icons%2Fted.jpg&charset=utf-8&config=%7B%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
+    },
+
+    {
+        name: "虎嗅网",
+        category: "新闻",
+        desc: "聚合优质的创新信息与人群，捕获精选|深度|犀利的商业科技资讯。",
+        icon: "https://static.huxiucdn.com/common/image/apple-touch-icon-180x180.png",
+        link: "likefeed://add-remote?name=%E8%99%8E%E5%97%85%E7%BD%91&source=http%3A%2F%2Fwww.huxiu.com&type=0&csser=h2%20a&min_len=0&desc=%E8%81%9A%E5%90%88%E4%BC%98%E8%B4%A8%E7%9A%84%E5%88%9B%E6%96%B0%E4%BF%A1%E6%81%AF%E4%B8%8E%E4%BA%BA%E7%BE%A4%EF%BC%8C%E6%8D%95%E8%8E%B7%E7%B2%BE%E9%80%89%7C%E6%B7%B1%E5%BA%A6%7C%E7%8A%80%E5%88%A9%E7%9A%84%E5%95%86%E4%B8%9A%E7%A7%91%E6%8A%80%E8%B5%84%E8%AE%AF%E3%80%82%E5%9C%A8%E8%99%8E%E5%97%85%EF%BC%8C%E4%B8%8D%E9%94%99%E8%BF%87%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E6%AF%8F%E4%B8%AA%E9%87%8D%E8%A6%81%E6%97%B6%E5%88%BB%E3%80%82&icon=https%3A%2F%2Fstatic.huxiucdn.com%2Fcommon%2Fimage%2Fapple-touch-icon-180x180.png&charset=utf-8&config=%7B%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
+    },
+    {
+        name: "36Kr-NEXT",
+        category: "创业和产品",
+        desc: "不错过任何一个新产品",
+        icon: "http://next.36kr.com/favicon.ico",
+        link: "likefeed://add-remote?name=36kr-NEXT&source=http%3A%2F%2Fnext.36kr.com%2Ffeed&type=1&csser=&min_len=0&desc=%E4%B8%8D%E9%94%99%E8%BF%87%E4%BB%BB%E4%BD%95%E4%B8%80%E4%B8%AA%E6%96%B0%E4%BA%A7%E5%93%81&icon=http%3A%2F%2Fnext.36kr.com%2Ffavicon.ico&charset=utf-8&config=%7B%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
     },
     {
         name: "ZEALER",
