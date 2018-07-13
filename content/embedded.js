@@ -18,6 +18,28 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 var g_targets = [
+
+    {
+        name: "[pixiv]综合月榜",
+        category: "二次元",
+        desc: "p站排行榜【需科学上网】",
+        icon: "http://fate2.oss-cn-shanghai.aliyuncs.com/feed-icons/p.ico",
+        link: "likefeed://add-remote?name=%5Bpixiv%5D%20%E7%BB%BC%E5%90%88%E6%9C%88%E6%A6%9C&source=https%3A%2F%2Fwww.pixiv.net%2Franking.php%3Fmode%3Dmonthly&type=0&csser=h2%20a&min_len=0&desc=P%E7%AB%99%E6%9C%88%E6%8E%92%E8%A1%8C%E6%A6%9C%E3%80%90%E5%B7%B2%E4%BF%AE%E5%A4%8D%E9%87%8D%E5%A4%8D%E3%80%91%E3%80%90%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E3%80%91&icon=https%3A%2F%2Fwww.pixiv.net%2Ffavicon.ico&charset=utf-8&config=%7B%22query_fields%22%3A%22illust_id%22%2C%22unique_type%22%3A%220%22%7D"
+    },
+    {
+        name: "二次元国家地理",
+        category: "二次元",
+        desc: "NGA论坛动漫版",
+        icon: "http://fate2.oss-cn-shanghai.aliyuncs.com/feed-icons/nga-b.png",
+        link: "likefeed://add-remote?name=%E4%BA%8C%E6%AC%A1%E5%85%83%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86&source=http%3A%2F%2Fnga.178.com%2Fthread.php%3Ffid%3D-447601&type=0&csser=TD%5Bclass%3D%22c2%22%5D%3EA&min_len=0&desc=NGA%E5%8A%A8%E6%BC%AB%E8%AE%BA%E5%9D%9B&icon=http%3A%2F%2Ffate2.oss-cn-shanghai.aliyuncs.com%2Ffeed-icons%2Fnga-b.png&charset=utf-8&config=%7B%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
+    },
+    {
+        name: "bilibili月度热排",
+        category: "二次元",
+        desc: "月度综合热门排行榜",
+        icon: "https://www.bilibili.com/favicon.ico",
+        link: "likefeed://add-remote?name=bilibili%E6%9C%88%E5%BA%A6%E7%83%AD%E6%8E%92&source=https%3A%2F%2Fwww.bilibili.com%2Franking%2Fall%2F0%2F0%2F30&type=0&csser=.title&min_len=0&desc=%E6%9C%88%E5%BA%A6%E7%BB%BC%E5%90%88%E7%83%AD%E9%97%A8%E6%8E%92%E5%BA%8F&icon=https%3A%2F%2Fwww.bilibili.com%2Ffavicon.ico&charset=utf-8&config=%7B%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
+    },
     {
         name: "TED Radio Hour",
         category: "播客",
@@ -46,13 +68,6 @@ var g_targets = [
         desc: "科技生活方式第一站",
         icon: "http://www.zealer.com/favicon.ico",
         link: "likefeed://add-remote?name=ZEALER&source=http%3A%2F%2Fwww.zealer.com%2F&type=0&csser=.wrap%20a&min_len=8&desc=%E3%80%90%E5%B7%B2%E4%BF%AE%E5%A4%8D%E3%80%91%E7%A7%91%E6%8A%80%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F%E7%AC%AC%E4%B8%80%E7%AB%99&icon=http%3A%2F%2Fwww.zealer.com%2Ffavicon.ico&charset=utf-8&config="
-    },
-    {
-        name: "bilibili月度热排",
-        category: "二次元",
-        desc: "月度综合热门排行榜",
-        icon: "https://www.bilibili.com/favicon.ico",
-        link: "likefeed://add-remote?name=bilibili%E6%9C%88%E5%BA%A6%E7%83%AD%E6%8E%92&source=https%3A%2F%2Fwww.bilibili.com%2Franking%2Fall%2F0%2F0%2F30&type=0&csser=.title&min_len=0&desc=%E6%9C%88%E5%BA%A6%E7%BB%BC%E5%90%88%E7%83%AD%E9%97%A8%E6%8E%92%E5%BA%8F&icon=https%3A%2F%2Fwww.bilibili.com%2Ffavicon.ico&charset=utf-8&config=%7B%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
     },
     {
         name: "蕊希电台",
