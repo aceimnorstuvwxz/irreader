@@ -18,7 +18,13 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 var g_targets = [
-
+    {
+        name: "摄影江湖",
+        category: "播客",
+        desc: "推荐，高磊是战地摄影，听他讲点事",
+        icon: "http://fate2.oss-cn-shanghai.aliyuncs.com/feed-icons/sheying.jpg",
+        link: "likefeed://add-remote?name=%E6%91%84%E5%BD%B1%E6%B1%9F%E6%B9%96&source=http%3A%2F%2Fwww.ximalaya.com%2Falbum%2F14351375.xml&type=1&csser=&min_len=0&desc=%E3%80%90%E6%8E%A8%E8%8D%90%EF%BC%8C%E9%AB%98%E7%A3%8A%E6%98%AF%E6%88%98%E5%9C%B0%E6%91%84%E5%BD%B1%E3%80%91%E8%AE%B2%E6%91%84%E5%BD%B1%EF%BC%8C%E8%AF%B4%E7%9C%9F%E8%AF%9D%E3%80%82%E6%88%91%E6%98%AF%E6%91%84%E5%BD%B1%E5%B8%88%E9%AB%98%E7%A3%8A%E3%80%82&icon=http%3A%2F%2Ffate2.oss-cn-shanghai.aliyuncs.com%2Ffeed-icons%2Fsheying.jpg&charset=utf-8&config=%7B%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
+    },
     {
         name: "V2EX-创意",
         category: "社区",
