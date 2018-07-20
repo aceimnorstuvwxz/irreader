@@ -48,7 +48,7 @@ h3{
 }
 
 .target-item:active{
-    font-weight: bold !important;
+    font-weight: bold;
 }
 
 .target-item-icon{
@@ -87,17 +87,17 @@ h3{
     font-weight: bold;
 }
 
-.big-entry{
+a.big-entry{
     background: #EEE;
     padding: 10px 20px;
     display: inline-block;
     border-radius: 5px;
     text-decoration: none;
     margin: 5px;
-    color: #333!important;
+    color: #333;
 }
 
-.big-entry:hover{
+a.big-entry:hover{
     background: #DDD;
     font-weight: bold;
 }
