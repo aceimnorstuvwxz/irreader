@@ -131,48 +131,93 @@
             #articles a {
                 color: rgb(203, 173, 0);
             }
+
+            .world {
+                text-align: center;
+            }
+
+            .world h3 {
+                margin-top: 50px;
+
+                font-size: 20px;
+                /* border: 1px purple dashed; */
+                color: pink;
+            }
         </style>
 
-        <div style="text-align: center;" id="articles">
-            <ul>
-                <li>
-                    <a href="https://www.bilibili.com/video/av26903939" target="_blank">
-                        <img src="https://i0.hdslb.com/bfs/archive/7e127cfb3ed6388cece399756c1c36042e68af54.jpg@320w_200h_100Q_1c.webp">
-                        <br />irreader视频教程1：如何订阅pixiv的排行榜网页（bilibili)</a>
-                </li>
+        <div class="world">
 
-                <li>
-                    <a href="https://www.bilibili.com/video/av26914210" target="_blank">
-                        <!-- <img src="https://i0.hdslb.com/bfs/archive/9fcaadcc7da8c9e21718e0ce4d3e5d8703093471.jpg@380w_240h_100Q_1c.webp"> -->
-                        <br />irreader视频教程2：如何订阅任意github项目的issue列表</a>
-                </li>
+            <h3>教程文档</h3>
+            <div style="text-align: center;" id="articles">
+                <a href="https://www.bilibili.com/video/av27091637/" target="_blank">
+                    <img src="https://i0.hdslb.com/bfs/archive/f3944058a03b899b19ee316970681f4fa0c6c20f.jpg@320w_200h_100Q_1c.webp">
+                    <br />irreader视频教程1：如何订阅pixiv的排行榜网页（bilibili)</a>
 
-                <li>
-                    <a href="https://www.bilibili.com/video/av26915658" target="_blank">
-                        <!-- <img src="https://i0.hdslb.com/bfs/archive/9fcaadcc7da8c9e21718e0ce4d3e5d8703093471.jpg@380w_240h_100Q_1c.webp"> -->
-                        <br />irreader教程3：如何订阅知乎的任意话题</a>
-                </li>
-            </ul>
-        </div>
+                <a href="https://www.bilibili.com/video/av26914210" target="_blank">
+                    <!-- <img src="https://i0.hdslb.com/bfs/archive/9fcaadcc7da8c9e21718e0ce4d3e5d8703093471.jpg@380w_240h_100Q_1c.webp"> -->
+                    <br />irreader视频教程2：如何订阅任意github项目的issue列表</a>
 
-        <div id="mkt">
+                <a href="https://www.bilibili.com/video/av26915658" target="_blank">
+                    <!-- <img src="https://i0.hdslb.com/bfs/archive/9fcaadcc7da8c9e21718e0ce4d3e5d8703093471.jpg@380w_240h_100Q_1c.webp"> -->
+                    <br />irreader教程3：如何订阅知乎的任意话题</a>
+            </div>
+
+
+
+            <h3>版本记录</h3>
+
+            <pre>
+v1.2.0 2018年07月22日
+1，支持动态网页的订阅；
+2，支持设置主题；
+<img src="libs/dark-theme.jpg">
+3，优化了UI，源列表可以收缩；
+4，源的导入与导出；
+5，增加了清理缓存菜单项；
+6，移除了JS和gif的blocking；
+7，完整支持了AD Block Plus；
+8，修复了其他的bug及各种优化；
+
+
+v1.1.1 2018年07月15日
+1，修复添加自定义页面时，load fail的事件处理错误问题；
+
+
+v1.1.0 2018年07月13日
+1，修改了网页订阅规则的设置方式，不再需要用户具有任何专业知识，小白也能轻松订阅；
+2，优化了翻页表现，不再有白色的闪烁，眼睛更舒适；
+3，修复了Win下滚动条的异常表现；
+4，将翻页键和收藏键移动到了webview的下方；
+5，修复了在网页未加载完全时，webview内右键菜单无法打开的问题；
+6，增大了第二栏的字号；
+7，其他优化和bug修复
+
+v1.0.4 2018年07月08日
+1，增加了深夜勿扰开关，在后半夜不再有提醒消息
+
+</pre>
+
+            <h3>功能介绍</h3>
             <img src="libs/mkt_0.png" id="mkt_img" />
+            <h3>下载</h3>
+
+
+            <div id="mkt">
+            </div>
+
+            <div id="foot2">
+                <a class="btn_download btn_download2" href="http://irreader.netqon.com/download/irreader-1.2.0.dmg">
+                    ⬇️ MacOS</a>
+
+
+                <a class="btn_download btn_download2" href="http://irreader.netqon.com/download/irreader-1.2.0.zip">
+                    ⬇️ Windows</a>
+            </div>
+
         </div>
-
-        <div id="foot2">
-            下载：
-            <a class="btn_download btn_download2" href="http://irreader.netqon.com/download/irreader-1.2.0.dmg">
-                ⬇️ MacOS</a>
-
-
-            <a class="btn_download btn_download2" href="http://irreader.netqon.com/download/irreader-1.2.0.zip">
-                ⬇️ Windows</a>
-        </div>
-
-
 
         <div id="foot3">
-            ©️ 1991-2018 Netqon.com 浙ICP备17048489号-2
+            ©️ 1999 Netqon.com 浙ICP备17048489号-2
         </div>
     </div>
 
