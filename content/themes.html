@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=500">
+    <title>irreader lab</title>
+    <meta name="description" content="it should be fun">
+    <link rel="icon" href="libs/favicon.png" type="image/png" />
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111452095-9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-111452095-9');
+    </script>
+</head>
+
+<body>
+
+    <style>
+        body{
+            background: #DDD;
+            height: 100vh;
+            margin: 0px;
+            padding: 0px;
+        }
+        .total{
+            margin: 10px;
+        }
+        h1{
+            font-size: 18px;
+            color: palevioletred;
+        }
+        pre{
+            font-size: 12px;
+        }
+        h2{
+            font-size: 15px;
+        }
+        .themes {
+            display: flex;
+        }
+
+        .theme {
+            width: 300px;
+            margin: 10px;
+        }
+
+        .theme img {
+            width: 300px;
+        }
+
+        #templates{
+            display: none;
+        }
+    </style>
+
+    <script>
+
+        $(document).ready(() => {
+            let web_themes = [
+
+                {
+                    name: '原生',
+                    preview: 'http://irreader.netqon.com/web-themes/light.png',
+                    reset: true
+                },
+                {
+                    name: '暗黑',
+                    preview: 'http://irreader.netqon.com/web-themes/dark.png',
+                    cssfile: 'http://irreader.netqon.com/web-themes/dark.css?v=2'
+                }
+            ]
+            web_themes.forEach((theme) => {
+                let new_element = $('#web_theme_template').clone()
+                new_element.find('img').attr('src', theme.preview)
+                new_element.find('.name').text(theme.name)
+                let theme_link = 'likefeed://reset-web-theme?t=t'
+                if (!theme.reset) {
+                    theme_link = `likefeed://set-web-theme?cssfile=${encodeURIComponent(theme.cssfile)}`
+                }
+                new_element.find('.btn-apply').attr('href', theme_link)
+                new_element.removeAttr('id')
+                new_element.appendTo('#web_themes')
+            })
+
+            let app_themes = [
+                {
+                    name: '原生',
+                    preview: 'http://irreader.netqon.com/app-themes/light.png',
+                    reset: true
+                },
+
+                {
+                    name: '暗黑',
+                    preview: 'http://irreader.netqon.com/app-themes/dark.png',
+                    cssfile: 'http://irreader.netqon.com/app-themes/dark.css',
+                    background: 'black'
+                }
+            ]
+
+            app_themes.forEach((theme)=>{
+                let new_element = $('#app_theme_template').clone()
+                new_element.find('img').attr('src', theme.preview)
+                new_element.find('.name').text(theme.name)
+                theme_link = 'likefeed://reset-app-theme?t=t'
+                if (!theme.reset) {
+                    theme_link = `likefeed://set-app-theme?cssfile=${encodeURIComponent(theme.cssfile)}&background=${encodeURIComponent(theme.background)}`
+                }
+                new_element.find('.btn-apply').attr('href', theme_link)
+                new_element.removeAttr('id')
+                new_element.appendTo('#app_themes')
+            })
+        })
+
+
+    </script>
+
+<div class="total">
+    <h1>irreader 主题房</h1>
+    <pre>自版本1.2.0中加入。欢迎体验暗黑主题，更多主题每周添加~
+    </pre>
+
+    <h2>阅读主题</h2> 
+    <div id="web_themes" class="themes">
+
+    </div>
+
+    <h2>软件主题</h2> 
+    <div class="themes" id="app_themes">
+
+    </div>
+
+
+
+    <div id="templates">
+        <div class="theme web-theme" id="web_theme_template">
+            <img src="web-themes/light.jpg" />
+            <div style="text-align: center;">
+                <span class="name">light</span>
+                <a href="#" class="btn-apply" target="_blank">获取</a>
+            </div>
+        </div>
+
+
+        <div class="theme app-theme" id="app_theme_template">
+            <img src="app-themes/light.jpg" />
+            <div style="text-align: center;">
+                <span class="name">light</span>
+                <a href="#" class="btn-apply" target="_blank">获取</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+
+</html>

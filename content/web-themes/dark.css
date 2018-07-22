@@ -1,0 +1,14 @@
+
+
+html{
+    background: white;
+}
+
+html, img, video {
+    filter: invert(100%);
+}
+
+* [style^="background-image:"] {
+    filter: invert(100%)
+}
+

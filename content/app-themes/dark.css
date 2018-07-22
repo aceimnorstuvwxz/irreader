@@ -1,0 +1,56 @@
+:root {
+  --sys-scroll-background: rgb(33, 33, 33);
+  --sys-scroll-handler: rgb(77, 77, 77); 
+
+  --sys-background: black;
+  --sys-color: #CCC;
+  --sys-color-disable: #666;
+  --sys-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+ 
+  --sys-background-deep: #4f4f4f;
+  --sys-background-middle: #1a1a1a;
+
+  --sys-border: 1px solid rgb(26, 26, 26);
+  --sys-border-deep: 1px solid  #797979;
+ 
+  --sys-main-text-color: rgb(194, 194, 194);
+  --sys-second-text-color: rgb(135, 135, 135);
+
+  --sys-background-item: rgb(45, 45, 45);
+  --sys-background-item-space: rgb(33, 33, 33);
+  --sys-item-border-normal: 3px solid rgb(45, 45, 45);
+  --sys-item-border-selected:3px solid rgb(121, 121, 121);
+  --sys-item-inset-shadow: inset 0px 0px 5px rgba(89, 89, 89, 0.9);
+  --sys-item-hover-background: linear-gradient(to right, rgb(108, 108, 108), rgb(26, 26, 26));
+
+  --sys-background-btn: #1a1a1a;
+  --sys-background-btn-hover: rgb(69, 69, 69);
+  --sys-background-btn-active: #525252;
+
+  --sys-btn-on-color: rgb(48, 165, 56);
+  --sys-pintop-color: rgb(205, 205, 205);
+  --sys-input-border: 1px solid  #727272;
+  --sys-input-background: rgb(57, 57, 57);
+  --sys-input-color: rgb(213, 213, 213);
+
+  --sys-podicon-color: #666;
+  --sys-podicon-color-hover: rgb(121, 121, 121);
+  --sys-podicon-color-active: rgb(165, 165, 165);
+  --sys-pod-area-background: linear-gradient(to top, rgb(82, 82, 82), rgb(26, 26, 26));
+  --sys-pod-progress-background: rgb(118, 118, 118);
+  --sys-pod-progress-handler: rgb(164, 164, 164);
+
+  --sys-target-num-background: #575757;
+  --sys-target-num-color: rgb(0, 0, 0);
+
+  --sys-star-color: rgb(227, 79, 79);
+  --sys-indication-color: rgb(227, 79, 79);
+  --sys-target-load-color-a: rgb(75, 204, 0);
+  --sys-target-load-color-b: #fff;
+
+}
+
+
+#white_board{
+  background: gray;
+}
