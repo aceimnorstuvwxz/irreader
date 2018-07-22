@@ -130,3 +130,7 @@ a.big-entry:hover{
     right: 0px;
     top:0px;
 }
+
+a.high{
+    color: rgb(255, 0, 255);
+}
