@@ -1,14 +1,15 @@
 
 
 html{
-    background: white;
+    background: #DDD;
+    filter: contrast(80%);
 }
 
 html, img, video {
-    filter: invert(100%);
+    filter: invert(95%);
 }
 
 * [style^="background-image:"] {
-    filter: invert(100%)
+    filter: invert(95%)
 }
 
