@@ -18,6 +18,14 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 var g_targets = [
+
+    {
+        name: "郭德纲历年相声整理",
+        category: "播客",
+        desc: "网友钢丝整理本专辑供大家欣赏",
+        icon: "http://fate2.oss-cn-shanghai.aliyuncs.com/feed-icons/guodegang.jpg",
+        link: "likefeed://add-remote?name=%E9%83%AD%E5%BE%B7%E7%BA%B2%E5%8E%86%E5%B9%B4%E7%9B%B8%E5%A3%B0%E6%95%B4%E7%90%86&source=http%3A%2F%2Frss.kaolafm.com%2FMZ_RSS%2Frss%2F1100000107435%2Falbum.xml&type=1&csser=&min_len=0&desc=%E6%9C%AC%E4%BA%BA%E9%93%81%E6%9D%86%E9%92%A2%E4%B8%9D%EF%BC%8C%E5%BA%94%E5%B9%BF%E5%A4%A7%E5%90%AC%E5%8F%8B%E8%A6%81%E6%B1%82%E6%95%B4%E7%90%86%E6%9C%AC%E4%B8%93%E8%BE%91%E4%BE%9B%E5%A4%A7%E5%AE%B6%E6%AC%A3%E8%B5%8F%E3%80%82&icon=http%3A%2F%2Ffate2.oss-cn-shanghai.aliyuncs.com%2Ffeed-icons%2Fguodegang.jpg&charset=utf-8&config=%7B%22dynamic%22%3A%22false%22%2C%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
+    },
     {
         name: "摄影江湖",
         category: "播客",
