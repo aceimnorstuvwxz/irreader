@@ -20,11 +20,11 @@ document.addEventListener('DOMContentLoaded', function () {
 var g_targets = [
 
     {
-        name: "郭德纲历年相声整理",
-        category: "播客",
-        desc: "网友钢丝整理本专辑供大家欣赏",
-        icon: "http://fate2.oss-cn-shanghai.aliyuncs.com/feed-icons/guodegang.jpg",
-        link: "likefeed://add-remote?name=%E9%83%AD%E5%BE%B7%E7%BA%B2%E5%8E%86%E5%B9%B4%E7%9B%B8%E5%A3%B0%E6%95%B4%E7%90%86&source=http%3A%2F%2Frss.kaolafm.com%2FMZ_RSS%2Frss%2F1100000107435%2Falbum.xml&type=1&csser=&min_len=0&desc=%E6%9C%AC%E4%BA%BA%E9%93%81%E6%9D%86%E9%92%A2%E4%B8%9D%EF%BC%8C%E5%BA%94%E5%B9%BF%E5%A4%A7%E5%90%AC%E5%8F%8B%E8%A6%81%E6%B1%82%E6%95%B4%E7%90%86%E6%9C%AC%E4%B8%93%E8%BE%91%E4%BE%9B%E5%A4%A7%E5%AE%B6%E6%AC%A3%E8%B5%8F%E3%80%82&icon=http%3A%2F%2Ffate2.oss-cn-shanghai.aliyuncs.com%2Ffeed-icons%2Fguodegang.jpg&charset=utf-8&config=%7B%22dynamic%22%3A%22false%22%2C%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
+        name: "机器之心",
+        category: "科技",
+        desc: "全球人工智能信息服务",
+        icon: "http://fate2.oss-cn-shanghai.aliyuncs.com/feed-icons/jiqizhixin.ico",
+        link: "likefeed://add-remote?name=%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83&source=https%3A%2F%2Fwww.jiqizhixin.com%2F&type=0&csser=A%5Bclass%3D%22article-item__title%20js-open-modal%22%5D&min_len=0&desc=%E5%85%A8%E7%90%83%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BF%A1%E6%81%AF%E6%9C%8D%E5%8A%A1%EF%BC%8C%E5%85%B3%E6%B3%A8%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E3%80%81%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%92%8C%E7%A5%9E%E7%BB%8F%E8%AE%A4%E7%9F%A5%E7%A7%91%E5%AD%A6%EF%BC%8C%E5%9D%9A%E6%8C%81%E4%B8%BA%E4%BB%8E%E4%B8%9A%E8%80%85%E6%8F%90%E4%BE%9B%E9%AB%98%E8%B4%A8%E9%87%8F%E5%86%85%E5%AE%B9%E5%92%8C%E5%A4%9A%E9%A1%B9%E4%BA%A7%E4%B8%9A%E6%9C%8D%E5%8A%A1%E3%80%82&icon=http%3A%2F%2Ffate2.oss-cn-shanghai.aliyuncs.com%2Ffeed-icons%2Fjiqizhixin.ico&charset=utf-8&config=%7B%22dynamic%22%3A%22false%22%2C%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
     },
     {
         name: "摄影江湖",
@@ -138,6 +138,13 @@ var g_targets = [
         desc: "聚合优质的创新信息与人群，捕获精选|深度|犀利的商业科技资讯。",
         icon: "https://static.huxiucdn.com/common/image/apple-touch-icon-180x180.png",
         link: "likefeed://add-remote?name=%E8%99%8E%E5%97%85%E7%BD%91&source=http%3A%2F%2Fwww.huxiu.com&type=0&csser=h2%20a&min_len=0&desc=%E8%81%9A%E5%90%88%E4%BC%98%E8%B4%A8%E7%9A%84%E5%88%9B%E6%96%B0%E4%BF%A1%E6%81%AF%E4%B8%8E%E4%BA%BA%E7%BE%A4%EF%BC%8C%E6%8D%95%E8%8E%B7%E7%B2%BE%E9%80%89%7C%E6%B7%B1%E5%BA%A6%7C%E7%8A%80%E5%88%A9%E7%9A%84%E5%95%86%E4%B8%9A%E7%A7%91%E6%8A%80%E8%B5%84%E8%AE%AF%E3%80%82%E5%9C%A8%E8%99%8E%E5%97%85%EF%BC%8C%E4%B8%8D%E9%94%99%E8%BF%87%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E6%AF%8F%E4%B8%AA%E9%87%8D%E8%A6%81%E6%97%B6%E5%88%BB%E3%80%82&icon=https%3A%2F%2Fstatic.huxiucdn.com%2Fcommon%2Fimage%2Fapple-touch-icon-180x180.png&charset=utf-8&config=%7B%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
+    },
+    {
+        name: "郭德纲历年相声整理",
+        category: "播客",
+        desc: "网友钢丝整理本专辑供大家欣赏",
+        icon: "http://fate2.oss-cn-shanghai.aliyuncs.com/feed-icons/guodegang.jpg",
+        link: "likefeed://add-remote?name=%E9%83%AD%E5%BE%B7%E7%BA%B2%E5%8E%86%E5%B9%B4%E7%9B%B8%E5%A3%B0%E6%95%B4%E7%90%86&source=http%3A%2F%2Frss.kaolafm.com%2FMZ_RSS%2Frss%2F1100000107435%2Falbum.xml&type=1&csser=&min_len=0&desc=%E6%9C%AC%E4%BA%BA%E9%93%81%E6%9D%86%E9%92%A2%E4%B8%9D%EF%BC%8C%E5%BA%94%E5%B9%BF%E5%A4%A7%E5%90%AC%E5%8F%8B%E8%A6%81%E6%B1%82%E6%95%B4%E7%90%86%E6%9C%AC%E4%B8%93%E8%BE%91%E4%BE%9B%E5%A4%A7%E5%AE%B6%E6%AC%A3%E8%B5%8F%E3%80%82&icon=http%3A%2F%2Ffate2.oss-cn-shanghai.aliyuncs.com%2Ffeed-icons%2Fguodegang.jpg&charset=utf-8&config=%7B%22dynamic%22%3A%22false%22%2C%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D"
     }
 ]
 
