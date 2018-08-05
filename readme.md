@@ -1,4 +1,4 @@
-# irreader 网空订阅
+# irreader 网空阅读器
 
 订阅网页、RSS和Podcast，具备急速的阅读体验，高品质、免费、无广告、多平台的RSS阅读器。
 
