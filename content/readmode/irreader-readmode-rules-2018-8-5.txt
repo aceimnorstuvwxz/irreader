@@ -1,5 +1,4 @@
-www.gameres.com#0##1##1#H1[class="ph"]#1#DIV[class="h hm"]>P[class="xg1"]#1#TD[class="t_f"]#1##1##1##0##0#
-www.gameres.com#0##1##1#SPAN[id="thread_subject"]#1##1##1##1##1##0##0#
+www.gameres.com#0##1##1#H1[class="ph"],SPAN[id="thread_subject"]#1#DIV[class="h hm"]>P[class="xg1"]#1#TD[class="t_f"]#1##1##1##0##0#
 www.douban.com#0##1##1#H1#1##1#DIV[class="article"]#1##1##1##0##0#
 www.mzitu.com#0##1##1#H2[class="main-title"]#1##1#DIV[class="main-image"]#1#DIV[class="pagenavi"]#1##1##0##0#
 zhuanlan.zhihu.com#0##1#IMG[class="TitleImage"]#1#H1[class="Post-Title"]#1#DIV[class="Post-Author"]>DIV[class="AuthorInfo"]#1#DIV[class="RichText ztext Post-RichText"]#1#DIV[class="Comments Comments--withEditor Comments-withPagination"]>DIV#1##1##0##0#
@@ -12,12 +11,9 @@ fuliba.net#0##1##1#H1[class="article-title"]>A#1#DIV[class="article-meta"]#1#ART
 www.appinn.com#0##1##1#H2[class="entry-title"]#1#DIV[class="entry-meta"]#1#DIV[class="entry-content"]#1#DIV[id="comments"]#1##1##0##0#
 www.ugediao.com#0##1##1#H1#1#DIV[class="post-declare"]>P#1#ARTICLE[class="post-content suxing-popup-gallery"]#1##1#DIV[id="comments"]#1##0##0#
 www.dysfz.cc#0##1##1#H1#1#DIV[class="info"]#1#DIV[class="detail"]#1##1##1##0##0#
-36kr.com#0##1##1#H1#1#DIV[class="am-cf author-panel"]#1#DIV[class="video-player-wrapper"]#1#DIV[id="post_post_comment_area"]#1##1##0##0#
-36kr.com#0##1##1#H1#1##1#SECTION[class="textblock"]#1##1##1##0##0#
-book.douban.com#0##1##1#H1>SPAN#1#HEADER[class="main-hd"]#1#DIV[class="main-bd"]#1#DIV[class="main-panel-useful"]#1#DIV[id="comments"]#1##0##0#
-book.douban.com#0##1##1##1##1#DIV[class="subjectwrap clearfix"]#1#DIV[id="link-report"]#1##1##0##0#
-movie.douban.com#0##1##1#H1>SPAN#1#HEADER[class="main-hd"]#1#DIV[class="main-bd"]#1#DIV[class="main-ft"]>DIV[class="main-panel"]#1#DIV[id="comments"]#1##0##0#
-movie.douban.com#0##1##1##1##1#DIV[class="subjectwrap clearfix"]#1##1##1##0##0#
+36kr.com#0##1##1#H1,H1#1#DIV[class="am-cf author-panel"]#1#DIV[class="video-player-wrapper"],SECTION[class="textblock"]#1#DIV[id="post_post_comment_area"]#1##1##0##0#
+book.douban.com#0##1##1#H1>SPAN#1#HEADER[class="main-hd"]#1#DIV[class="main-bd"],DIV[class="subjectwrap clearfix"]#1#DIV[class="main-panel-useful"],DIV[id="link-report"]#1#DIV[id="comments"]#1##0##0#
+movie.douban.com#0##1##1#H1>SPAN#1#HEADER[class="main-hd"]#1#DIV[class="main-bd"],DIV[class="subjectwrap clearfix"]#1#DIV[class="main-ft"]>DIV[class="main-panel"]#1#DIV[id="comments"]#1##0##0#
 dribbble.com#0##1##1#H1#1#H2[class="shot-byline"]#1#DIV[class="the-shot"]#1#DIV[class="screenshot-conversation has-comments"]#1##1##0##0#
 www.ifanr.com#0##1#DIV[id="article-header"]>IMG#1#H1[class="c-single-normal__title"]#1##1#ARTICLE[class="o-single-content__body__content c-article-content s-single-article js-article"]#1#DIV[id="article-comments"]#1##1##0##0#
 www.waerfa.com#0##1##1#H1[class="Article__title"]#1#DIV[class="Article__topMeta"]#1#DIV[class="Article__content Content"]#1#DIV[id="discussion"]#1##1##0##0#
@@ -35,4 +31,4 @@ www.ruanyifeng.com#0##1##1#H1[id="page-title"]#1#ARTICLE[class="hentry"]>DIV[cla
 cnbeta.com#0##1##1#HEADER[class="title"]>H1#1##1#DIV[id="artibody"]>P#1#DIV[class="msg-box"]#1##1##0##0#
 www.iapps.im#0##1#DIV[class="entry-main"]>DIV[class="entry-thumb"]>A>IMG#1#H1[class="entry-title"]#1##1#DIV[class="entry-content"]#1##1##1##0##0#
 www.thepaper.cn#0##1##1#H1[class="news_title"]#1#DIV[class="news_about"]#1#DIV[class="news_txt"]#1#DIV[id="aq_commt"]#1##1##0##0#
-coolshell.cn#0##1##1##1##1##1##1##1##0#IMG[weight="200"]#1#IFRAME[class="share_self"]#1#IMG[class="aligncenter size-full wp-image-18375"]#1#DIV[class="entry-content"]>P[align="center"]#1#DIV[id="wp_rp_first"]#1#DIV[class="post-ratings"]#1#IMG[class="alignright wp-image-18375 size-medium"]#0#
+coolshell.cn#0##1##1##1##1##1##1##1##0#IMG[weight="200"],IFRAME[class="share_self"],IMG[class="aligncenter size-full wp-image-18375"],DIV[class="entry-content"]>P[align="center"],DIV[id="wp_rp_first"],DIV[class="post-ratings"],IMG[class="alignright wp-image-18375 size-medium"]#0#
