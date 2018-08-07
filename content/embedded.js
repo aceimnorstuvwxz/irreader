@@ -9,11 +9,12 @@ function get_query_param(name) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    var is_en = get_query_param('lan') == 'en'
-    if (is_en) {
-        //如果是英文，则调到英文页面（用来mas review mother fucker!!!!)
-        window.location.href = 'embedded-en.html'
-    }
+    // var is_en = get_query_param('lan') == 'en'
+    // if (is_en) {
+    //     //如果是英文，则调到英文页面（用来mas review mother fucker!!!!)
+    //     window.location.href = 'embedded-en.html'
+    // }
+    //改成提供一个english的入口
     init_recommend_targets()
 })
 
