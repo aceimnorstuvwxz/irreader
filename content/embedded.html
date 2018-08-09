@@ -22,8 +22,8 @@
 
 <body>
 
-    <h3> irreader beta
-        <span class="sub-title">网空阅读器</span>
+    <h3> irreader beta 网空阅读器
+        <span class="sub-title"></span>
     </h3>
 
     <div>
@@ -36,13 +36,16 @@
     <div class="note">
         <pre>
 最新消息：
-<span style="font-size: 16px; color:darkviolet;">通知：v1.3.0(2018年08月09日) 已经出了</span>
+<span style="font-size: 16px; color:rgb(44, 164, 255);">通知：v1.3.0(2018年08月09日) 已经出了</span>
 1，加了个阅读模式
 2，默认关闭了通知和开机启动
 3，预加载可以设置不同等级，笔记本用户能用来降低能耗
 4，快捷键更新了，应该会更舒服
-其他一些修改和文档更新，待周末编辑。
+5，中文名改成了“网空阅读器”
+6，其他优化
 <a href="likefeed://open-external?url=http://irreader.netqon.com" target="_blank">点击前往下载</a>
+
+另：一些文档还有待周末编辑
         </pre>
     </div>
 
@@ -70,7 +73,7 @@
 
     <h3>教程</h3>
     <pre>
-对网页的订阅教程：
+<a href="https://www.bilibili.com/video/av28215001/" target="_blank">irreader 进阶使用教程（by有格调网站） </a>
 <a href="docs.html">新版v1.1网页订阅图文教程</a>
 <a href="https://www.bilibili.com/video/av26903939" target="_blank">irreader示例教程1：如何订阅pixiv的排行榜网页（bilibili)</a>
 <a href="https://www.bilibili.com/video/av26914210" target="_blank">irreader示例教程2：如何订阅任意github项目的issue列表</a>
@@ -81,10 +84,12 @@
     <pre>
     下一篇     J 或 右箭头
     上一篇     K 或 左箭头
-    向下滚动   下箭头
-    向上滚动   上箭头
+    向下滚动   N 或 下箭头
+    向上滚动   M 或 上箭头
+    收藏      S 
+    刷新页面   R
 
-    *更多功能在鼠标右键菜单中
+    *您也可以使用鼠标右键菜单
 </pre>
     <h3>社群</h3>
     <pre>
@@ -96,25 +101,32 @@ QQ群:568968683
 
     <h3>推荐的RSS中介服务</h3>
     <pre>
-对一些动态网站你也可以使用这些服务来生成RSS
+对一些网站你也可以使用这些服务来生成RSS
 <a href="https://docs.rsshub.app/">RSSHub</a>
 <a href="https://api.izgq.net/weibo/">微博 to RSS</a>
 <a href="https://twitrss.me/">Twitter to RSS</a>
-
 </pre>
 
 <h3>开发预告</h3>
 <pre>
-更新时间：每个星期天
+更新时间：一个月一次
 1，源列表支持文件夹
 2，内建的动态内容RSS中介服务
-3，阅读模式
-4，支持脚本化订阅规则
+3，支持脚本化订阅规则
+欢迎提供需求~
 </pre>
 
     <h3>版本记录</h3>
 
     <pre>
+已知问题
+1, Mac下dock的图标当下载图片后会异常缩小，关闭窗口后又复原。
+2，<span class="hight">Windows下，全屏游戏时请提前关闭提醒消息，否则当提醒消息时会切换出游戏。</span>
+3，当使用代理时，若出现网络变化，软件有可能会自己退出。
+4，Mac下取消开机启动失效，请您到系统设置->用户与群组->登录项中手动关闭。
+<img src="http://fate2.oss-cn-shanghai.aliyuncs.com/irreader/close_auto_launch.png">
+            
+
 v1.2.0 2018年07月22日
 1，支持动态网页的订阅；
 2，支持设置主题；
@@ -124,13 +136,6 @@ v1.2.0 2018年07月22日
 6，移除了JS和gif的blocking；
 7，完整支持了AD Block Plus；
 8，修复了其他的bug及各种优化；
-
-已知问题
-1, Mac下dock的图标当下载图片后会异常缩小，关闭窗口后又复原。
-2，<span class="hight">Windows下，全屏游戏时请提前关闭提醒消息，否则当提醒消息时会切换出游戏。</span>
-3，当使用代理时，若出现网络变化，软件有可能会自己退出。
-4，Mac下取消开机启动失效，请您到系统设置->用户与群组->登录项中手动关闭。
-<img src="http://fate2.oss-cn-shanghai.aliyuncs.com/irreader/close_auto_launch.png">
 
 v1.1.1 2018年07月15日
 1，修复添加自定义页面时，load fail的事件处理错误问题；
