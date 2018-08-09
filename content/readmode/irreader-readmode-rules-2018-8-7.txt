@@ -39,7 +39,7 @@ bbs.hupu.com#0##1##1#H1[id="j_data"]#1#SPAN[class="browse"]#1#FORM[name="delatc"
 photo.hupu.com#0##1##1#H2#1##1#DIV[id="bigpicfan"]#1##1##1##0##0#
 voice.hupu.com#0##1##1#H1[class="headline"],H1#1#DIV[class="artical-info"],DIV[class="tit-bar-info"]#1#DIV[class="artical-content-read"],DIV[class="column-bd"]#1##1##1##0##0#
 www.tuicool.com#0##1##1#H1#1#DIV[class="article_meta"]>DIV#1#DIV[id="nei"]#1##1##1##0##0#
-www.jiqizhixin.com#0##1##1#H1[class="article__title"]#1#DIV[class="u-flex article-author"]>DIV#1#DIV[id="js-article-content"]>SECTION#1##1##1##0##0#
+www.jiqizhixin.com#0##1##1#H1[class="article__title"]#1#DIV[class="u-flex article-author"]>DIV#1#DIV[id="js-article-content"]#1##1##1##0##0#
 www.managershare.com#0##1##1#H1[class="post-title"]#1#SECTION[class="post-meta"]#1#ARTICLE[class="post-content"]#1##1##1##0#DIV[class="fn-clear post-bottom"]#0#
 cn.engadget.com#0##1##1#H1#1##1#DIV[class="flush-top flush-bottom"]>DIV#1##1##1##0#DIV[class="hide@tp- grid@tl+__cell col-4-of-12@tl+ right@tl+ flush-top 1 relative z-1"],DIV[id="latest_rail_tower_article"],DIV[class="table@m+ pt-35@m+ pb-40@m+ border-top@m+ hide@s"],SECTION[id="recirculation"],BUTTON[class="o-btn@tl+ o-btn@tl+--small th-btn@tl+ absolute@tp- c-violet@tp- t-0 b-0 r-0 pl-20@tp- pr-20@tp- bc-white-50"]#0#
 vice.cn#0##1#IMG[class="lede-image lede"]#1#H1[class="id-title"]>SPAN,DIV[class="article-single-image"]>IMG,H3[class="article-title"]#1#DIV[class="meta-information"],DIV[class="details"]#1#SECTION[class="site-wrapper fixed-header fixed-header-hideable"]>DIV[class="site-content"]>DIV[class="page-container article-single-container single-column"]>DIV[class="page-inner-content article-inner-content"]>DIV[class="article-content-container"]>DIV[class="article-content-inner"]>DIV[class="article-content rich-text"],DIV[class="article-body"],DIV[class="article-single-video embed-responsive embed-responsive-16by9 l-section"]>IFRAME[frameborder="0"]#1##1##1##0##0#
@@ -66,7 +66,7 @@ www.geekpark.net#0##1##1#H1[class="topic-title"]#1#DIV[class="user-info"]#1#DIV[
 www.juzimi.com#0##1##1##1##1#DIV[id="content-header"]#1#DIV[class="node clear-block"]#1#DIV[id="commentsin"]#1##0##0#
 www.zhifuquanzi.com#0##1##1#H1[class="ph"]#1#P[class="xg1"]#1#DIV[class="bm vw"]>DIV[class="s"]>DIV[class="d"]#1##1##1##0##0#
 wiki.ioin.in#0##1##1##1##1##1##1##1##0##0#
-xz.aliyun.com#0##1##1#SPAN[class="content-title"]#1#DIV[class="topic-info"]#1#DIV[id="topic_content"]#1##1##1##0##0#
+xz.aliyun.com#0##1##1#DIV[class="clearfix user-info topic-list"]>P#1#DIV[class="topic-info"]#1#DIV[id="topic_content"]#1##1##1##0##0#
 www.topys.cn#0##1##1#H2>DIV[class="container"]#1##1#DIV[id="article-body"]#1##1##1##0#DIV[class="article-tools animated fadeIn"]#0#
 www.gooood.cn#0##1##1#H1[class="entry-title"]#1#DIV[class="post-data pull-right"]#1#DIV[class="row client-view"]#1#DIV[class="content-single"]>DIV[class="comments"]#1##1##0##0#
 youxiputao.com#0##1#DIV[class="cover"]>IMG#1#H2[class="title"]#1#DIV[class="pull-left"]>DIV[class="time"]#1#DIV[class="info-detail"]#1#IFRAME[id="WBCommentFrame"]#1##1##0#DIV[id="elevator_item"]#0#
@@ -122,18 +122,13 @@ www.jiemian.com#0##1##1#DIV[class="article-header"]>H1#1#DIV[class="article-info
 bh.sb#0##1##1#H1[class="article-title"]>A#1#UL[class="article-meta"]#1#ARTICLE[class="article-content"]#1##1##1##0##0#
 steamcn.com#0##1##1##1##1##1##1##1##0#DIV[class="floatcontainer doc_header wp cl"],DIV[class="bliz_ai_pr"],DIV[class="bliz_ai_f"],DIV[class="subforunm_foot"]#0#
 3dmgame.com#0##1##1#H1#1#DIV[class="cc_arctitle"]>SPAN,DIV[class="time"]>SPAN,DIV[class="lef"]>DIV[class="tex"]#1#DIV[id="div_content"],DIV[class="news_warp_center"],DIV[class="ZLmp3"]>DIV[class="zl_cent"]#1##1##1##0##0#
-v.gamersky.com#0##1##1##1##1##1##1##1##0##0#
-www.gamersky.com#0##1##1##1##1##1##1##1##0##0#
 gamersky.com#0##1##1#H1#1#DIV[class="detail"]#1#DIV[class="Mid2L_con"],DIV[class="MidL_con"]#1#DIV[id="SOHUCS"]#1##1##0##0#
-acg.gamersky.com#0##1##1##1##1##1##1##1##0##0#
 daily.zhihu.com#0##1##1#H1[class="headline-title"]#1#DIV[class="question"]#1##1##1##1##0##0#
 www.52pojie.cn#0##1##1##1##1##1##1##1##0#DIV[class="sign"],DIV[class="dnch_eo_pt"],DIV[class="bdsharebuttonbox bdshare-button-style1-16"],DIV[id="hd"],DIV[id="toptb"],DIV[id="ft"],DIV[class="wp dnch_eo_f"]#0#
 www.leiphone.com#0##1##1#H1[class="headTit"]#1#DIV[class="msg"]#1#DIV[class="lph-article-comView"]#1#DIV[class="article-comment lp-comment"]#1##1##0##0#
-m.sohu.com#0##1##1##1##1##1##1##1##0##0#
 www.williamlong.info#0##1##1#H1[class="post-title"]#1##1#DIV[id="artibody"]#1##1##1##0##0#
 huiris.com#0##1##1#H1[class="fullname"]#1#DIV[class="fields"]#1#ARTICLE[class="post_article"]#1#SECTION[class="comments"]>DIV[class="container"]#1##1##0##0#
 techcrunch.com#0##1#IMG[class="article__featured-image article__featured-image--block breakout"]#1#H1[class="article__title"]#1#DIV[class="article__byline-wrapper"]#1#DIV[class="article-content"]#1##1##1##0##0#
-www.wired.com#0##1##1##1##1##1##1##1##0##0#
 osxdaily.com#0##1##1#H1#1#SPAN[class="subhead_lefty"]#1#DIV[class="contenttext"]#1##1##1##0##0#
 sophiebits.com#0##1##1#H1#1#P[class="byline"]#1#DIV[class="wrapper"]>DIV[class="container"]#1##1##1##0##0#
 www.smashingmagazine.com#0##1##1#H1#1#TIME[class="article__date"]#1#DIV[class="c-garfield-the-cat"]#1##1##1##0##0#
@@ -145,23 +140,18 @@ news.blockchain.hk#0##1##1#H1[class="entry-title"]#1#DIV[class="entry-meta"]#1#D
 www.chainnews.com#0##1##1#H1[class="title"]#1#DIV[class="author-wrapper"]#1#DIV[class="gitbook-markdown-body"]#1##1##1##0##0#
 www.nytimes.com#0##1##1#SPAN[class="balancedHeadline"]#1#TIME#1#ARTICLE[id="story"]#1##1##1##0##0#
 www.xinhuanet.com#0##1##1#DIV[class="h-title"]#1#DIV[class="h-info"]#1#DIV[class="main-aticle"],#p-detail#1##1##1##0##0#
-cn.reuters.com#0##1##1##1##1##1##1##1##0##0#
 mil.huanqiu.com#0##1##1#H1[class="tle"]#1#SPAN[class="la_t_a"]#1#DIV[class="la_con"]#1##1##1##0##0#
 tech2ipo.com#0##1##1#H1#1#H6#1#DIV[class="content medium"]#1##1##1##0##0#
 www.infoq.com#0##1##1#H1[class="general"]#1##1#DIV[class="text_info"]#1##1##1##0##0#
-ps4.tgbus.bnbsky.com#0##1##1##1##1##1##1##1##0##0#
 tgbus.bnbsky.com#0##1##1#H1#1#DIV[class="vice"]#1#DIV[class="art-body"]#1##1##1##0##0#
-switch.tgbus.com#0##1##1##1##1##1##1##1##0##0#
 tgbus.com#0##1##1#H1#1#DIV[class="vice"]#1#DIV[class="art-body"]#1##1##1##0##0#
 tech.tgbus.com#0##1##1#DIV[class="title"]>H4#1#P[class="time"]>SPAN#1#DIV[class="text"]#1##1##1##0##0#
 www.leavesongs.com#0##1##1#H1[class="posttitle"]#1#DIV[class="meta"]#1#ARTICLE[class="post"]>DIV[class="content"]#1##1##1##0##0#* { color: #333 !important; }
 jm.taobao.org#0##1##1#H1[class="post-title"]#1#DIV[class="post-meta"]#1#DIV[class="post-body"]#1##1##1##0##0#
 www.sadk.org#0##1##1#H1[class="post-title"]#1#UL[class="post-meta"]#1#DIV[class="post-content"]#1##1##1##0##0#
 www.ign.xn--fiqs8s#0##1##1#H1[id="id_title"]#1#H2[id="id_deck"]#1#DIV[id="id_text"]#1##1##1##0##0#
-zhangdawei.blog.caixin.com#0##1##1##1##1##1##1##1##0##0#
 blog.caixin.com#0##1##1#DIV[class="post_content post_content_single"]>H2#1#DIV[class="post_content_meta clearfix"]#1#DIV[class="blog_content"]#1##1##1##0##0#
 www.macrumors.com#0##1##1#H1[class="title"],H1[class="header-title"]#1#DIV[class="article"]>DIV[class="byline"],SPAN[class="byline"]#1#DIV[class="article"]>DIV[class="content"],DIV[class="body"]#1#DIV[class="comment first"]#1##1##0##0#
-forums.macrumors.com#0##1##1##1##1##1##1##1##0##0#
 www.tmtpost.com#0##1##1#H1#1#DIV[class="post-info"]#1#ARTICLE#1##1##1##0##0#
 www.guanggoo.com#0#DIV[class="ui-header"]>A>IMG[class="avatar"]#1##1#H3[class="title"]#1#DIV[class="meta mt10"]#1#DIV[class="ui-content"]>P#1#DIV[class="topic-reply container-box mt10"]#1##1##0##0#
 blog.codingnow.com#0##1##1#H3[class="entry-header"]#1#SPAN[class="post-footers"]#1#DIV[class="entry-content"]#1#DIV[class="comments-content"]#1##1##0##0#.entry-content{ text-align: left; }
@@ -178,7 +168,6 @@ hzwer.com#0##1##1#H1[class="title"]#1#DIV[class="meta"]#1#DIV[class="content"]#1
 fex.baidu.com#0##1##1#H1[class="title"]#1#DIV[class="article-info"]>DIV[class="author"]#1#DIV[class="content"]#1##1##1##0##0#
 www.aliued.cn#0##1##1#H2>A[rel="bookmark"]#1#DIV[class="postinfo"]#1#DIV[class="entry"]#1##1##1##0##0#body.custom-background{ background:white; }
 cdc.tencent.com#0##1##1#DIV[class="content-title"]>H3#1#DIV[class="content-title"]>P#1#DIV[class="content-details"]#1#DIV[id="allComments"]#1##1##0##0#
-isux.tencent.com#0##1##1##1##1##1##1##1##0##0#
 cnodejs.org#0#DIV[class="user_card"]>DIV#1##1#SPAN[class="topic_full_title"]#1#DIV[class="changes"]#1#DIV[class="inner topic"]#1#DIV[id="content"]>DIV[class="panel"]#1##1##0##0#
 www.qiqiboy.com#0##1##1#HEADER[class="entry-header"]#1#DIV[class="entry-meta"]#1#DIV[class="entry-content"]#1#DIV[id="comments"]#1##1##0##0#
 alistapart.com#0##1##1#H1[class="entry-title"]#1#P[class="entry-details"]#1#DIV[class="main-content"]#1##1##1##0#DIV[class="utility-side-bar"],ASIDE[class="content-minutiae"]#0#
