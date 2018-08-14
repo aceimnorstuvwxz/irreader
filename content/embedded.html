@@ -9,7 +9,7 @@
     <link rel="icon" href="libs/favicon.png" type="image/png" />
     <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
     <script src="embedded.js?v=17"></script>
-    <link rel="stylesheet" href="embedded.css?v=7" />
+    <link rel="stylesheet" href="embedded.css?v=8" />
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111452095-9"></script>
     <script>
@@ -36,19 +36,28 @@
     <div class="note">
         <pre>
 最新消息：
-<span style="font-size: 16px; color:rgb(44, 164, 255);">通知：v1.3.0(2018年08月09日) 已经出了</span>
-1，加了个阅读模式
+<span style="font-size: 16px; color:rgb(44, 164, 255);">通知：新版本v1.3.0(2018年08月09日) </span>
+1，增加阅读模式
 2，默认关闭了通知和开机启动
 3，预加载可以设置不同等级，笔记本用户能用来降低能耗
-4，快捷键更新了，应该会更舒服
+4，快捷键更新了，应该会更舒服(见下文)
 5，中文名改成了“网空阅读器”
 6，其他优化
-<a href="likefeed://open-external?url=http://irreader.netqon.com" target="_blank">点击前往下载</a>
+<a href="http://irreader.netqon.com" target="_blank">前往官网下载(右键在浏览器打开)</a>
 
-另：一些文档还有待周末编辑
+注：阅读模式的规则还在不断完善中，会慢慢覆盖到所有大宗网站，目前收录到源市场的网站基本都有阅读模式。
+
+
+已知问题
+0，<span class="hight">Windows下，未知原因退出（v1.2.0确认有这个问题，待解决）</span>
+1，Mac下，下载图片后dock图标会缩小，关闭窗口后又复原。
+2，<span class="hight">Windows下，游戏前切记关闭提醒，否则一旦提醒会切出全屏的游戏😰。</span>
+3，当使用代理时，软件在网络不稳定时有可能自己退出（上游bug，似乎已经修复了）。
+4，Mac下，关闭开机启动无效，请您到系统设置->用户与群组->登录项中手动关闭(上游bug）。
+<img src="http://fate2.oss-cn-shanghai.aliyuncs.com/irreader/close_auto_launch.png">
         </pre>
     </div>
-
+<!-- 
     <h3>新发现</h3>
     注意：境外的源加载可能会较慢，请耐心等待。
 
@@ -69,7 +78,7 @@
                 </div>
             </div>
         </a>
-    </div>
+    </div> -->
 
     <h3>教程</h3>
     <pre>
@@ -80,16 +89,17 @@
 <a href="https://www.bilibili.com/video/av26915658" target="_blank">irreader示例教程3：如何订阅知乎的任意话题</a>
     </pre>
 
-    <h3>常用快捷键</h3>
+    <h3>快捷键</h3>
     <pre>
+    适用于v1.3.0及以上
     下一篇     J 或 右箭头
     上一篇     K 或 左箭头
     向下滚动   N 或 下箭头
     向上滚动   M 或 上箭头
     收藏      S 
     刷新页面   R
-
-    *您也可以使用鼠标右键菜单
+    <a href="https://fate2.oss-cn-shanghai.aliyuncs.com/pool/20180814105205.png"><img src="https://fate2.oss-cn-shanghai.aliyuncs.com/pool/20180814105205.png" height="150px"></a>
+    *您也可以使用右键菜单
 </pre>
     <h3>社群</h3>
     <pre>
@@ -110,21 +120,21 @@ QQ群:568968683
 <h3>开发预告</h3>
 <pre>
 更新时间：一个月一次
-1，源列表支持文件夹
-2，内建的动态内容RSS中介服务
-3，支持脚本化订阅规则
+将要添加的：
+1，支持文件夹，使得能够分类整理和阅读
+2，mac下增加手势的支持
+3，增加一些统计信息，收藏的数量、阅读的数量等等
+4，能够清理源的内容
+考虑中的：
+1，内建的动态内容RSS中介服务
+2，支持脚本化订阅规则
+3，手机版
 欢迎提供需求~
 </pre>
 
     <h3>版本记录</h3>
 
     <pre>
-已知问题
-1, Mac下dock的图标当下载图片后会异常缩小，关闭窗口后又复原。
-2，<span class="hight">Windows下，全屏游戏时请提前关闭提醒消息，否则当提醒消息时会切换出游戏。</span>
-3，当使用代理时，若出现网络变化，软件有可能会自己退出。
-4，Mac下取消开机启动失效，请您到系统设置->用户与群组->登录项中手动关闭。
-<img src="http://fate2.oss-cn-shanghai.aliyuncs.com/irreader/close_auto_launch.png">
             
 
 v1.2.0 2018年07月22日
@@ -161,7 +171,7 @@ v1.0.4 2018年07月08日
         <a href="embedded-en.html">English</a>
     </div>
 
-    <img id="corner" src="libs/cornet-tot.png?v=3" />
+    <!-- <img id="corner" src="libs/cornet-tot.png?v=3" /> -->
 </body>
 
 </html>
