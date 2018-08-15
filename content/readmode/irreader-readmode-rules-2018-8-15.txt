@@ -51,7 +51,7 @@ www.eeo.com.cn#0##1#DIV[class="xd-xd-xd-newsimg"]>IMG#1#DIV[class="xd-b-b"]>H1#1
 www.miit.gov.cn#0##1##1#H1[id="con_title"]#1#DIV[class="cinfo center"]#1#DIV[id="con_con"]#1##1##1##0##0#
 zh.wikihow.com#0##1##1#H1[class="firstHeading"]>A#1##1#DIV[class="section steps sticky"]#1##1##1##0##0#
 chinagdg.org#0##1##1#H1[class="w-blog-post-title entry-title"]#1#DIV[class="w-blog-post-meta"]#1#DIV[class="l-section-h i-cf"]#1##1##1##0##0#.l-body{ background-color: white; }
-juejin.im#0##1##1#H1[class="article-title"],H1#1#DIV[class="entry-public-info"]#1#DIV[class="article-content"],DIV[class="postBody"]#1##1##1##0##0#.article-content img.lazyload{ visibility:visible !important; }
+juejin.im#0##1##1#H1[class="article-title"],H1#1#DIV[class="entry-public-info"]#1#DIV[class="article-content"],DIV[class="postBody"],.article-content#1##1##1##0##0#.article-content img.lazyload{ visibility:visible !important; }
 www.cnblogs.com#0##1##1#H1[class="postTitle"],A[id="cb_post_title_url"]#1#DIV[class="postDesc"],P[class="postfoot"]#1#DIV[id="cnblogs_post_body"],DIV[id="cnblogs_post_body"]#1##1##1##0##0#body{ text-align:left; }
 jobbole.com#0##1##1#H1,H1[class="p-tit-single"]>A,H1[class="p-tit-single"]#1#P[class="entry-meta-hide-on-mobile"],P[class="p-meta"],P[class="p-meta"]#1#DIV[class="entry"],DIV[class="p-entry"],DIV[class="p-entry"]#1#UL[class="cmnt-list"],UL[class="cmnt-list"],UL[class="cmnt-list"]#1##1##0##0#
 www.thesartorialist.com#0##1##1#A[rel="bookmark"]#1#P[class="date-post"]#1#DIV[class="article-content"]>P#1#DIV[class="list-comments"]#1##1##0##0#
@@ -185,12 +185,12 @@ blog.farmostwood.net#0##1##1#H1#1##1#DIV[class="entrytext"]#1#OL[class="commentl
 www.12377.cn#0##1##1#H1#1##1#DIV[class="box1"]#1##1##1##0##0#
 www.msra.cn#0##1##1#H2[class="subheader"]#1#P[class="body-alt no-margin-bottom"]#1#ARTICLE#1##1##1##0#SECTION[class="margin-bottom-sp1"]#0#
 blog.dwnews.com#0##1##1#DIV[class="sq-page-topimg"]>H1#1#DIV[class="time lef"]#1#DIV[class="box"]#1##1##1##0##0#
-www.duowan.com#0##1##1#H1[class="art-title"]#1#SPAN[class="art-time"]#1#DIV[id="text"]#1#UL[class="dw-comment-comment_list"]#1##1##0##0#
+www.duowan.com#0##1##1#H1#1#SPAN[class="art-time"]#1#DIV[id="text"]#1#UL[class="dw-comment-comment_list"]#1##1##0##0#
 xiaozhuanlan.com#0#IMG[class="avatar-image"]#1#IMG[class="xzl-topic-show"]#1#DIV[class="topic-title"]#1#DIV[class="postMetaInline"]#1#DIV[class="markdown topic-body"]#1##1##1##0##0#
 dev.to#0##1#HEADER#1#H1[class="longer"],H1[class="short"]#1#DIV[id="main-title"]>H3#1#DIV[id="article-body"]#1#DIV[class="comments-container-container"]#1##1##0#svg[class="icon-img"]#0#
 www.a9vg.com#0##1##1#H1[class="art-title"]#1#SPAN[class="time"]#1#DIV[class="art-ctns"]>DIV[class="art-ctn"]#1#IFRAME[class="comment_area"]#1##1##0##0#
 www.taptap.com#0##1##1##1##1##1##1##1##0#DIV[class="forum-page-side taptap-page-side"],NAV[id="navbar"],SECTION[class="taptap-breadcrumb"],FOOTER[class="footer"]#0#.taptap-page-main{ width:auto; }
-hacpai.com#0##1##1#H1[class="article-title"]#1#.article-info#1#DIV[class="article-body"]>DIV[class="wrapper"]#1#DIV[id="articleCommentsPanel"]#1##1##0#DIV[id="articleAudio"]#0#.article-tail, . share{ display:none; }
+hacpai.com#0##1##1##1##1##1##1##1##0##0#
 www.yunyingpai.com#0##1##1#H2[class="title--leading"]#1#.postMetaLockup#1#ARTICLE[class="postArticle"]#1##1##1##0#DIV[class="y-articleTop-ad y-marginBottom30"]#0#
 gnn.gamer.com.tw#0##1##1##1##1##1##1##1##0#DIV[id="BH-top-data"],UL[class="BH-menuE"],DIV[id="BH-slave"]>DIV[id="flySalve"],DIV[id="headnews"],DIV[class="BH-lbox GN-lbox9"],DIV[id="BH-footer"]#0##BH-master{ width: 100% !important; }
 www.ui.cn#0##1##1#H1[id="p-title"]#1#SPAN[class="time"]#1#DIV[id="p-content"]#1#LI[class="item cl"]#1##1##0##0#.works-cont img{ position:relative !important; }
