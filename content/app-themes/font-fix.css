@@ -1,4 +1,6 @@
 :root {
-    --sys-font: font-family: Helvetica, Tahoma, Arial, "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    --sys-font: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
 }
-  
+* {
+    font-weight: bold;
+}
