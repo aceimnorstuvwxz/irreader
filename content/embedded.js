@@ -16,6 +16,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // }
     //改成提供一个english的入口
     init_recommend_targets()
+
+    $('.auto-ref').each(function(){
+        $(this).attr('href', this.href + '?_t='+ Date.now())
+    })
 })
 
 var g_targets = [
