@@ -5,7 +5,7 @@ html, img, video, iframe {
 
 html{
     background: #DDD;
-    filter: invert(95%) contrast(90%) brightness(90%);
+    filter: invert(95%) contrast(80%) brightness(80%);
 }
 
 * [style^="background-image:"] {
