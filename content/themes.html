@@ -22,14 +22,15 @@
 
     <style>
         body {
-            background: #DDD;
+            background: rgb(255, 245, 252);
             height: 100vh;
             margin: 0px;
             padding: 0px;
+            /* font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif; */
         }
 
         .total {
-            margin: 10px;
+            padding: 10px;
         }
 
         h1 {
@@ -41,12 +42,18 @@
             font-size: 12px;
         }
 
+        #main_area{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
         h2 {
             font-size: 15px;
         }
 
         .themes {
-            display: flex;
+            display: grid;
+            grid-template-columns: 1fr;
         }
 
         .theme {
@@ -70,18 +77,23 @@
 
                 {
                     name: '原生',
-                    preview: 'http://irreader.netqon.com/web-themes/light.png',
+                    preview: 'http://irreader.netqon.com/web-themes/light.png?v=2',
                     reset: true
                 },
                 {
-                    name: '暗黑(beta) v2',
-                    preview: 'http://irreader.netqon.com/web-themes/dark.png',
+                    name: 'Window下临时字体修复-雅黑',
+                    preview: 'https://fate2.oss-cn-shanghai.aliyuncs.com/pool/20180829170745.png',
+                    cssfile: 'http://irreader.netqon.com/web-themes/font-fix.css?v=2'
+                },
+                {
+                    name: '暗黑 v3',
+                    preview: 'http://irreader.netqon.com/web-themes/dark.png?v=1',
                     cssfile: 'http://irreader.netqon.com/web-themes/dark.css?v=6'
                 },
                 {
-                    name: 'Window下临时字体修复-雅黑',
-                    preview: 'https://fate2.oss-cn-shanghai.aliyuncs.com/pool/20180827142812.png',
-                    cssfile: 'http://irreader.netqon.com/web-themes/font-fix.css?v=2'
+                    name: '暗黑++',
+                    preview: 'http://irreader.netqon.com/web-themes/darker.png?v=2',
+                    cssfile: 'http://irreader.netqon.com/web-themes/darker.css?v=6'
                 }
             ]
             web_themes.forEach((theme) => {
@@ -112,7 +124,7 @@
                 },
                 {
                     name: 'Windows下临时字体修复-雅黑',
-                    preview: 'https://fate2.oss-cn-shanghai.aliyuncs.com/pool/20180827142812.png',
+                    preview: 'http://irreader.netqon.com/app-themes/font-fix.png',
                     cssfile: 'http://irreader.netqon.com/app-themes/font-fix.css?v=2',
                     background: '#FFF'
                 }
@@ -137,19 +149,27 @@
 
     <div class="total">
         <h1>irreader 主题房</h1>
-        <pre>自版本1.2.0中加入。欢迎体验暗黑主题，更多主题每周添加~
-    </pre>
+        <p>
+            阅读主题应用于阅读窗口，软件主题应用于界面的其他部分。
+        </p>
 
-        <h2>阅读主题</h2>
-        <div id="web_themes" class="themes">
+        <div id="main_area">
+
+                <div class="colm">
+                        <h2>软件主题</h2>
+                        <div class="themes" id="app_themes">
+        
+                        </div>
+                    </div>
+        
+            <div class="colm">
+                <h2>阅读主题</h2>
+                <div id="web_themes" class="themes">
+
+                </div>
+            </div>
 
         </div>
-
-        <h2>软件主题</h2>
-        <div class="themes" id="app_themes">
-
-        </div>
-
 
 
         <div id="templates">
@@ -172,6 +192,7 @@
         </div>
 
     </div>
+    <p>(C) 2018 netqon.com</p>
 </body>
 
 </html>
