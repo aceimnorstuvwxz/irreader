@@ -13,3 +13,6 @@ html, img, video {
     filter: invert(95%)
 }
 
+* {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}

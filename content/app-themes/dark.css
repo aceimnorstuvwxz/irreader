@@ -5,7 +5,7 @@
   --sys-background: black;
   --sys-color: #CCC;
   --sys-color-disable: #666;
-  --sys-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --sys-font: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
  
   --sys-background-deep: #4f4f4f;
   --sys-background-middle: #1a1a1a;
@@ -53,4 +53,9 @@
 
 #white_board{
   background: gray;
+}
+
+
+* {
+  font-weight: bold;
 }
