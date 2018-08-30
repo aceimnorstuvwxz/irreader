@@ -69,6 +69,10 @@ background-repeat:no-repeat;
 background-position:right;
 }
 
+.record{
+    background: rgb(255, 241, 242);
+}
+
 #records_space{
     background: rgb(255, 241, 242);
 }
