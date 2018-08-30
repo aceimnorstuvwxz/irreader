@@ -1,0 +1,78 @@
+
+
+:root {
+    --sys-background: white;
+    --sys-color: rgb(104, 72, 104);
+    --sys-color-disable: #929292;
+    --sys-font: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+   
+    --sys-background-deep: #ffeffe;
+    --sys-background-middle: #ffeffe;
+
+    --sys-border: 1px solid rgb(255, 255, 255);
+    --sys-border-deep: 1px solid  #ffffff;
+   
+    --sys-main-text-color: rgb(104, 72, 104);
+    --sys-second-text-color: rgb(212, 165, 212);
+
+    --sys-background-item-space: rgb(255, 232, 255);
+    --sys-item-border-normal: 3px solid rgba(255, 255, 255, 0);
+    --sys-item-border-selected:3px solid rgb(255, 255, 255);
+    --sys-item-inset-shadow: inset 0px 0px 5px rgba(227, 227, 227, 0.9);
+    --sys-item-hover-background: linear-gradient(to right, rgb(255, 255, 255), white);
+
+    --sys-background-btn: none;
+    --sys-background-btn-hover: rgb(255, 206, 206);
+    --sys-background-btn-active: #a0a0a0;
+
+    --sys-btn-on-color: rgb(48, 165, 56);
+    --sys-pintop-color: rgb(205, 205, 205);
+    --sys-input-border: 1px solid  #c7c7c7;
+    --sys-input-background: white;
+    --sys-input-color: #333;
+
+    --sys-podicon-color: rgb(104, 72, 104);
+    --sys-podicon-color-hover: rgb(66, 46, 66);
+    --sys-podicon-color-active: rgb(66, 46, 66);
+    --sys-pod-area-background: linear-gradient(to top, rgb(255, 231, 231), rgb(255, 235, 254));
+    --sys-pod-progress-background: rgb(255, 255, 255);
+    --sys-pod-progress-handler: rgb(255, 154, 71);
+    
+
+    --sys-star-color: rgb(227, 79, 79);
+    --sys-indication-color: rgb(227, 79, 79);
+    --sys-target-load-color-a: rgb(75, 204, 0);
+    --sys-target-load-color-b: #fff;
+
+    --sys-target-num-background: #ddcccc;
+    --sys-target-num-color: white;
+
+
+    --sys-target-column-big-width: 200px;
+    --sys-target-column-small-width: 50px;
+    --sys-record-column-width: 200px;
+    --sys-two-column-big-total-width: 400px;
+    --sys-two-column-small-total-width: 250px;
+    --sys-head-height: 30px;
+    --sys-foot-height: 52px;
+    --sys-head-foot-height: 82px;
+  }
+
+* {
+    font-weight: 600;
+}
+
+#window_header{
+  background-image: url(https://fate2.oss-cn-shanghai.aliyuncs.com/pool/20180830101929.png);
+background-repeat:no-repeat;
+/* background-attachment:fixed; */
+background-position:right;
+}
+
+#records_space{
+    background: rgb(255, 241, 242);
+}
+
+#white_board{
+    background: rgb(255, 229, 249);
+  }
