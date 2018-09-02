@@ -16,6 +16,6 @@ html{
     font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
 }
 
-body {
-    font-weight: bold;
+body, #_irr_readmode_framework *{
+    font-weight: bold !important;
 }

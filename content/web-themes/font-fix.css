@@ -1,3 +1,8 @@
 * {
     font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
 }
+
+
+body, #_irr_readmode_framework *{
+    font-weight: bold !important;
+}
