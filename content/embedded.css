@@ -1,9 +1,9 @@
 
 body{
     font-size: 14px;
+    color: #333;
 }
 p,pre{
-    color: #666;
     font-family: system-ui;
 }
 a{
@@ -20,7 +20,6 @@ h3{
 }
 
 .note{
-    color: #AAA;
     font-size: 12px;
 }
 
@@ -68,11 +67,9 @@ h3{
     overflow: hidden;
     text-overflow: ellipsis;    
     white-space:nowrap; 
-    color: #666;
 }
 
 .target-item-description{
-    color: #999;
     font-size: 12px;
     overflow : hidden;
     text-overflow: ellipsis;
@@ -82,7 +79,6 @@ h3{
 }
 
 .target-item-category{
-    color: #999;
     font-size: 10px;
     font-weight: bold;
 }
@@ -94,7 +90,6 @@ a.big-entry{
     border-radius: 5px;
     text-decoration: none;
     margin: 5px;
-    color: #333;
 }
 
 a.big-entry:hover{
@@ -121,7 +116,6 @@ a.big-entry:hover{
     color: rgb(149, 0, 255);
 }
 .note{
-    color: gray;
     font-size: 12px;
 }
 
@@ -133,4 +127,14 @@ a.big-entry:hover{
 
 a.high{
     color: rgb(255, 0, 255);
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+}
+
+.spon{
+    border-bottom: 1px solid rgb(205, 184, 220);
 }

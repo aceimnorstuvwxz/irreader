@@ -9,7 +9,7 @@
     <link rel="icon" href="libs/favicon.png" type="image/png" />
     <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
     <script src="embedded.js?v=19"></script>
-    <link rel="stylesheet" href="embedded.css?v=9" />
+    <link rel="stylesheet" href="embedded.css?v=10" />
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111452095-9"></script>
     <script>
@@ -22,23 +22,28 @@
 
 <body>
 
-    <h3> irreader beta 网空阅读器
-        <span class="sub-title"></span>
-    </h3>
+    <header>
+        <h3> irreader beta 网空阅读器
+            <span class="sub-title"></span>
+        </h3>
 
-    <div>
-        <a class="big-entry" href="http://irreader-s.netqon.com:8080/feedonline/target/store" target="_blank">进入源市场</a>
-        <a class="big-entry" href="likefeed://add-custom" target="_blank">添加自定义源</a>
-        <a class="big-entry auto-ref" href="docs.html" target="_blank">使用指南</a>
-        <a class="big-entry" href="likefeed://open-exchange" target="_blank">导入和导出源</a>
-        <a class="big-entry auto-ref" href="themes.html" target="_blank">主题设置</a>
-        <a class="big-entry" href="likefeed://open-external?url=https://github.com/fateleak/irreader/issues" target="_blank">反馈与开发计划</a>
-    </div>
-    <div class="note">
-        <pre>
+        <div>
+            <a class="big-entry" href="http://irreader-s.netqon.com:8080/feedonline/target/store" target="_blank">进入源市场</a>
+            <a class="big-entry" href="likefeed://add-custom" target="_blank">添加自定义源</a>
+            <a class="big-entry auto-ref" href="docs.html" target="_blank">使用指南</a>
+            <a class="big-entry" href="likefeed://open-exchange" target="_blank">导入和导出源</a>
+            <a class="big-entry auto-ref" href="themes.html" target="_blank">主题设置</a>
+            <a class="big-entry" href="likefeed://open-external?url=https://github.com/fateleak/irreader/issues" target="_blank">反馈与开发计划</a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+
+            <div class="note">
+                <pre>
 <span style="font-size: 16px; color:rgb(193, 155, 99);">新版本v1.5.3(2018年09月23日) 沉浸式窗口  </span>
 <a href="likefeed://open-external?url=http://irreader.netqon.com" target="_blank" style="color:rgb(193, 155, 99);">前往官网下载</a>
-<a href="support.html" style="color:rgb(193, 155, 99);">我要捐赠💰 ，donation</a>
 
 v1.5.3 2018年09月23日
 修复逆序排列时新条目的插入错误
@@ -58,32 +63,10 @@ Windows下新增绿色免安装版
 4，Mac下，关闭开机启动无效，请您到系统设置->用户与群组->登录项中手动关闭(上游bug）。
         </pre>
 
-    </div>
-    <!-- 
-    <h3>新发现</h3>
-    注意：境外的源加载可能会较慢，请耐心等待。
-
-    <div class="targets" id="target_list">
-        <a id="target_template" class="target-item" target="_blank" href="likefeed://add-remote?name=%E5%8F%8D%E6%B4%BE%E5%BD%B1%E8%AF%84&source=http%3A%2F%2Fwww.ximalaya.com%2Falbum%2F4127591.xml&type=1&csser=&min_len=0&desc=%E6%AC%A2%E8%BF%8E%E5%85%B3%E6%B3%A8%E2%80%9C%E5%8F%8D%E6%B4%BE%E5%BD%B1%E8%AF%84%E2%80%9D%E5%85%AC%E4%BC%97%E5%8F%B7%EF%BC%8C%E6%9C%AC%E8%8A%82%E7%9B%AE%E5%9C%A8%E6%AD%A4%E5%B9%B3%E5%8F%B0%E4%B8%8A%E5%8F%AA%E6%94%BE%E5%87%BA1%2F4%E7%9A%84%E8%8A%82%E7%9B%AE%EF%BC%81%E5%85%B6%E5%AE%83%E8%8A%82%E7%9B%AE%E5%8A%A0%E5%85%AC%E5%8F%B7%EF%BC%8C%E5%8F%AF%E5%90%AC%E5%88%B030%E5%88%86%E9%92%9F%E8%A1%8C%E4%B8%9A%E7%B1%BB%E8%B0%88%E8%AF%9D%E8%8A%82%E7%9B%AE%E2%80%9C%E5%8F%8D%E6%B4%BE%E9%A9%AC%E5%90%8E%E7%82%AE%E2%80%9D%E5%8F%8A%E7%9F%AD%E8%AF%AD%E9%9F%B3%E8%AF%84%E7%94%B5%E5%BD%B1%E7%9A%84%E2%80%9C%E7%94%B5%E5%BD%B1%E8%80%B3%E6%97%81%E9%A3%8E%E2%80%9D%EF%BC%8C%E5%8F%A6%E5%A4%96%E8%BF%98%E5%8F%AF%E8%8E%B7%E5%8F%96%E8%8A%82%E7%9B%AE%E4%B8%AD%E6%8F%90%E5%8F%8A%E7%9A%84%E7%94%B5%E5%BD%B1%E7%89%87%E5%8D%95%E5%8F%8A%E5%85%B6%E5%AE%83%E5%BB%B6%E5%B1%95%E4%BF%A1%E6%81%AF%E3%80%82%E6%89%B9%E8%AF%84%E4%B8%8D%E8%87%AA%E7%94%B1%EF%BC%8C%E5%88%99%E8%B5%9E%E7%BE%8E%E6%97%A0%E6%84%8F%E4%B9%89%E3%80%82%E5%85%9A%E5%90%8C%E4%BC%90%E5%BC%82%EF%BC%8C%E7%8C%9B%E4%BA%8E%E7%82%AE%E7%81%AB%E3%80%82&icon=http%3A%2F%2Ffdfs.xmcdn.com%2Fgroup12%2FM04%2F5B%2FB5%2FwKgDXFcodQTzLHUqAAPp8Gu1lRY954.jpg&charset=utf-8&config=%7B%22query_fields%22%3A%22*%22%2C%22unique_type%22%3A%220%22%7D">
-            <div class="target-item-icon">
-                <img src="http://fdfs.xmcdn.com/group12/M04/5B/B5/wKgDXFcodQTzLHUqAAPp8Gu1lRY954.jpg" />
             </div>
-            <div class="target-item-right">
-                <div class="target-item-name">
-                    赤色的爱
-                </div>
-                <div class="target-item-category">
-                    音频节目
-                </div>
-                <div class="target-item-description">
-                    它是红中带刺的，火辣妖艳，吞噬。
-                </div>
-            </div>
-        </a>
-    </div> -->
 
-    <h3>教程</h3>
-    <pre>
+            <h3>教程</h3>
+            <pre>
 <a href="https://www.bilibili.com/video/av28215001/" target="_blank">irreader 进阶使用教程（by有格调网站） </a>
 <a href="docs.html">新版v1.1网页订阅图文教程</a>
 <a href="https://www.bilibili.com/video/av26903939" target="_blank">irreader示例教程1：如何订阅pixiv的排行榜网页（bilibili)</a>
@@ -91,18 +74,9 @@ Windows下新增绿色免安装版
 <a href="https://www.bilibili.com/video/av26915658" target="_blank">irreader示例教程3：如何订阅知乎的任意话题</a>
     </pre>
 
-    <h3>
-        App赞助
-    </h3>
-    <pre>
-    <a href="likefeed://open-external?url=http://openwebmonitor.netqon.com?ref=irreader" target="_blank"><img src="http://openwebmonitor.netqon.com/libs/favicon.png"></a>
-    OpenWebMonitor 监控网页内特定区域内容变化，获得Email提醒
-    （监控JD物价、监控Steam优惠、监控幼儿园招生通知、监控秒杀开始）
 
-</pre>
-
-    <h3>快捷键</h3>
-    <pre>
+            <h3>快捷键</h3>
+            <pre>
     适用于v1.3.0及以上
     下一篇     J 或 右箭头
     上一篇     K 或 左箭头
@@ -113,16 +87,16 @@ Windows下新增绿色免安装版
     <a href="https://fate2.oss-cn-shanghai.aliyuncs.com/pool/20180814105205.png"><img src="https://fate2.oss-cn-shanghai.aliyuncs.com/pool/20180814105205.png" height="150px"></a>
     *您也可以使用右键菜单
 </pre>
-    <h3>社群</h3>
-    <pre>
+            <h3>社群</h3>
+            <pre>
 源分享与收录、新版本讨论
 QQ群:568968683
 <a href="https://t.me/joinchat/HFKP3AyR_CqzTs9mDntexw" target="_blank" >Telegram irreader Group</a>
 Email: 315027768#qq.com
 </pre>
 
-    <h3>推荐的RSS中介服务</h3>
-    <pre>
+            <h3>推荐的RSS中介服务</h3>
+            <pre>
 对一些网站你也可以使用这些服务来生成RSS
 <a href="https://docs.rsshub.app/">RSSHub</a>
 <a href="https://api.izgq.net/weibo/">微博 to RSS</a>
@@ -131,9 +105,9 @@ Email: 315027768#qq.com
 
 </pre>
 
-    <h3>版本记录</h3>
+            <h3>版本记录</h3>
 
-    <pre>
+            <pre>
 
 v1.5.1 (2018年9月18日)
 1，修复了字体
@@ -145,69 +119,71 @@ v1.5.1 (2018年9月18日)
 7，增加podcast支持倍速播放
 8，增加自定义阅读模式规则编辑器
 9，其他优化
+
 v1.4.0(2018年08月26日)
 1，增加了源的文件夹支持
 2，优化了阅读模式的排版
 3，其他优化和fix
 
-v1.3.0(2018年08月09日)
-1，增加阅读模式
-2，默认关闭了通知和开机启动
-3，预加载可以设置不同等级，笔记本用户能用来降低能耗
-4，快捷键更新了，应该会更舒服(见下文)
-5，中文名改成了“网空阅读器”
-6，其他优化
-
-v1.2.0 2018年07月22日
-1，支持动态网页的订阅；
-2，支持设置主题；
-3，优化了UI，源列表可以收缩；
-4，源的导入与导出；
-5，增加了清理缓存菜单项；
-6，移除了JS和gif的blocking；
-7，完整支持了AD Block Plus；
-8，修复了其他的bug及各种优化；
-
-v1.1.1 2018年07月15日
-1，修复添加自定义页面时，load fail的事件处理错误问题；
-
-
-v1.1.0 2018年07月13日
-1，修改了网页订阅规则的设置方式，不再需要用户具有任何专业知识，小白也能轻松订阅；
-2，优化了翻页表现，不再有白色的闪烁，眼睛更舒适；
-3，修复了Win下滚动条的异常表现；
-4，将翻页键和收藏键移动到了webview的下方；
-5，修复了在网页未加载完全时，webview内右键菜单无法打开的问题；
-6，增大了第二栏的字号；
-7，其他优化和bug修复
-
-v1.0.4 2018年07月08日
-1，增加了深夜勿扰开关，在后半夜不再有提醒消息
+...
 
 </pre>
+        </section>
 
-    <!-- 
-<h3>捐赠</h3>
+        <section id="right_part">
+            <h3>
+                App赞助
+            </h3>
+            <div class="spon">
 
-<img src="http://fate2.oss-cn-shanghai.aliyuncs.com/meta/wx-pay.png" width="150px">
+                <div class="spon_icon">
+                    <a href="likefeed://open-external?url=http://openwebmonitor.netqon.com?ref=irreader" target="_blank"><img
+                            src="http://openwebmonitor.netqon.com/libs/favicon.png"></a>
+                </div>
+                <div class="spon_title">OpenWebMonitor</div>
+                <div class="spon_desc">
 
-    <a target="_blank" href="likefeed://open-external?url=https%3a%2f%2fcloud.tencent.com%2fredirect.php%3fredirect%3d1025%26cps_key%3d31f9be096e31f2592fe6f33fdd3d7d44%26from%3dconsole">
-        <img width="100" src="https://fate2.oss-cn-shanghai.aliyuncs.com/pool/20180829220557.png">
-    </a><br>
-Bright Sun -->
-    <div class="foot">
+                    监控网页内特定区域内容变化<br>
+                    （JD物价、Steam优惠、秒杀开始）
+                </div>
+
+            </div>
+
+            <div class="spon">
+
+                    <div class="spon_icon">
+                        <a  target="_blank"><img width="200"
+                                src="http://fate2.oss-cn-shanghai.aliyuncs.com/meta/wx_kongbukong.jpg"></a>
+                    </div>
+                    <div class="spon_title">空卜空</div>
+                    <div class="spon_desc">关注开发组的订阅号
+                    </div>
+    
+                </div>
+
+            <div class="spon">
+
+                <div class="spon_icon">
+                    <a  target="_blank" href="support.html"><img width="200"
+                            src="http://fate2.oss-cn-shanghai.aliyuncs.com/meta/wx-pay.png"></a>
+                </div>
+                <div class="spon_title">打赏app开发组</div>
+                <div class="spon_desc">每个用户打赏一元就发达了
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="foot">
         ©️ 2018 netqon.com
         <a href="http://www.netqon.com" style="color:gainsboro;">关于网空</a>
         <a href="embedded-en.html">English</a>
         <a target="_blank" href="likefeed://open-external?url=https%3a%2f%2fcloud.tencent.com%2fredirect.php%3fredirect%3d1025%26cps_key%3d31f9be096e31f2592fe6f33fdd3d7d44%26from%3dconsole">Powered
             By 腾讯云</a>
-    </div>
+    </footer>
 
-    <!-- 
-        OpenExternal的URL别忘了要用
-        http://tool.chinaz.com/tools/urlencode.aspx
-        编码
-     -->
 </body>
 
 </html>
