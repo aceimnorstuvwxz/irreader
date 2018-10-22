@@ -113,7 +113,12 @@ a.big-entry:hover{
 }
 
 .hight{
-    color: rgb(149, 0, 255);
+    color: rgb(149, 0, 255) !important;
+}
+
+.gold{
+    color: rgb(216, 158, 71) !important;
+    font-weight: bold;
 }
 .note{
     font-size: 12px;
