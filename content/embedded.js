@@ -20,6 +20,10 @@ document.addEventListener('DOMContentLoaded', function () {
     $('.auto-ref').each(function(){
         $(this).attr('href', this.href + '?_t='+ Date.now())
     })
+
+    $('.open-external').each(function(){
+        $(this).attr('href', 'likefeed://open-external?url=' +  encodeURIComponent($(this).attr('external-url')))
+    })
 })
 
 var g_targets = [
