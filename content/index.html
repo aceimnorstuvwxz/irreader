@@ -28,6 +28,49 @@
 
 <body>
 
+    <header >
+        <style>
+
+        header{
+            display:flex; 
+            padding: 10px 30px; 
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 0px 10px rgb(208, 208, 208);
+            background: white;
+        }
+
+        header>a{
+            display: block;
+            color: #333;
+        }
+
+        #header_logo{
+            height: 50px;
+            width: 50px;
+            margin: 0px 20px;
+        }
+
+        .header-app-item{
+            padding: 20px;
+            font-size: 14px;
+        }
+        
+        .header-app-item[pressed="true"]{
+            font-weight: bold;
+        }
+
+        .header-app-item:hover{
+            color: rebeccapurple;
+        }
+        </style>
+        <a href="#"><img id="header_logo" src="https://fate2.oss-cn-shanghai.aliyuncs.com/pool/20190310231013.png" alt="FATECORE" /></a>
+        <a class="header-app-item" pressed="true" href="http://irreader.netqon.com">irreader</a>
+        <a class="header-app-item"  href="http://openwebmonitor.netqon.com">OpenWebMonitor</a>
+        <a class="header-app-item" href="http://overwork.netqon.com">AppTimer</a>
+        <a class="header-app-item" href="http://fatecore.com">社区</a>
+
+    </header>
     <div id="world">
         <div id="head">
         </div>
@@ -146,7 +189,7 @@
             }
 
             body {
-                background: rgb(255, 251, 245);
+                /* background: rgb(255, 251, 245); */
             }
         </style>
 
