@@ -28,47 +28,47 @@
 
 <body>
 
-    <header >
+    <header>
         <style>
+            header {
+                display: flex;
+                padding: 10px 30px;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0px 0px 10px rgb(208, 208, 208);
+                background: white;
+            }
 
-        header{
-            display:flex; 
-            padding: 10px 30px; 
-            justify-content: center;
-            align-items: center;
-            box-shadow: 0px 0px 10px rgb(208, 208, 208);
-            background: white;
-        }
+            header>a {
+                display: block;
+                color: #333;
+            }
 
-        header>a{
-            display: block;
-            color: #333;
-        }
+            #header_logo {
+                height: 50px;
+                width: 50px;
+                margin: 0px 20px;
+            }
 
-        #header_logo{
-            height: 50px;
-            width: 50px;
-            margin: 0px 20px;
-        }
+            .header-app-item {
+                padding: 20px;
+                font-size: 14px;
+            }
 
-        .header-app-item{
-            padding: 20px;
-            font-size: 14px;
-        }
-        
-        .header-app-item[pressed="true"]{
-            font-weight: bold;
-        }
+            .header-app-item[pressed="true"] {
+                font-weight: bold;
+            }
 
-        .header-app-item:hover{
-            color: rebeccapurple;
-        }
+            .header-app-item:hover {
+                color: rebeccapurple;
+            }
         </style>
-        <a href="#"><img id="header_logo" src="https://fate2.oss-cn-shanghai.aliyuncs.com/pool/20190310231013.png" alt="FATECORE" /></a>
+        <a href="#"><img id="header_logo" src="https://fate2.oss-cn-shanghai.aliyuncs.com/pool/20190310231013.png"
+                alt="FATECORE" /></a>
         <a class="header-app-item" pressed="true" href="http://irreader.netqon.com">irreader</a>
-        <a class="header-app-item"  href="http://openwebmonitor.netqon.com">OpenWebMonitor</a>
+        <a class="header-app-item" href="http://openwebmonitor.netqon.com">OpenWebMonitor</a>
         <a class="header-app-item" href="http://overwork.netqon.com">AppTimer</a>
-        <a class="header-app-item" href="http://fatecore.com">社区</a>
+        <a class="header-app-item" href="http://fatecore.com">笔记</a>
 
     </header>
     <div id="world">
@@ -134,13 +134,13 @@
                 <img src="libs/favicon.png" width="150px">
                 <!-- <img src="libs/fate2.jpeg" width="150px"> -->
                 <div id="it">
-                    <h2>Netqon</h2>
-                    <h1>irreader beta v1.5.8
+                    <h2>Fatecore</h2>
+                    <h1>irreader v1.5.8
                     </h1>
                     <h3>
                         订阅网页、RSS和Podcast，具备急速的阅读体验，
-                        <br/> 高品质、免费、无广告、多平台的RSS阅读器。
-                        <br/> 泛用型Podcast播放器。
+                        <br /> 高品质、免费、无广告、多平台的RSS阅读器。
+                        <br /> 泛用型Podcast播放器。
                     </h3>
                     <div class="label">Downloads:</div>
                 </div>
@@ -158,10 +158,10 @@
                 </div>
 
                 <footer id="foot">
-                    <a href="https://t.me/joinchat/HFKP3AyR_CqzTs9mDntexw" target="_blank">Telegram: irreader Group</a>
+                    <!-- <a href="https://t.me/joinchat/HFKP3AyR_CqzTs9mDntexw" target="_blank">Telegram: irreader Group</a> -->
                     <a>QQ群：568968683</a>
-                    <a>浙ICP备17048489号</a>
-                    <a href="http://www.netqon.com">&copy; 2018 netqon.com</a>
+                    <a href="http://www.miitbeian.gov.cn">浙ICP备17048489号-2</a>
+                    <a href="https://www.fatecore.com">&copy; 2018 fatecore.com</a>
                 </footer>
             </div>
             <div class="flex-push"></div>
@@ -192,7 +192,7 @@
                 /* background: rgb(255, 251, 245); */
             }
         </style>
-
+<!-- 
         <div class="world">
 
             <h3>教程文档</h3>
@@ -351,16 +351,13 @@ v1.0.4 2018年07月08日
         </div>
 
         <div style="text-align: center; ">
-        <!-- <a href="https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=uox6lsyg" target="_blank">
-            <img src="https://fate2.oss-cn-shanghai.aliyuncs.com/pool/20180829221932.png">
-        </a>
-        <a href="https://cloud.tencent.com/redirect.php?redirect=1025&cps_key=31f9be096e31f2592fe6f33fdd3d7d44&from=console" target="_blank">
-            <img width="110" src="https://fate2.oss-cn-shanghai.aliyuncs.com/pool/20180829220557.png">
-        </a> -->
-        <div id="foot3">
-            ©️ 2018 Netqon.com 浙ICP备17048489号
-            <a href="http://www.netqon.com" target="_blank" style="color: pink;">关于网空</a>
-        </div></div>
+            <div id="foot3">
+                ©️ 2018 fatecore.com
+                <a href="https://www.fatecore.com">关于FC</a>
+                <a href="http://www.miitbeian.gov.cn">浙ICP备17048489号-2</a>
+
+            </div>
+        </div> -->
     </div>
 
 </body>
