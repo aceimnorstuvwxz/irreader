@@ -15,9 +15,9 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="订阅网页、RSS和Podcast，具备极速的阅读体验，高品质、开源、免费、无广告、多平台的RSS阅读器。">
+    <meta name="description" content="订阅网页、RSS和Podcast，具备极速的阅读体验，高品质、免费、无广告、多平台的RSS阅读器。">
 
-    <title>irreader 网空阅读器</title>
+    <title>irreader 阅读器 - FATECORE</title>
     <link rel="icon" href="libs/favicon.png" type="image/png" />
     <link rel="stylesheet" href="libs/bootstrap.css" />
     <script src="libs/jquery.js"></script>
@@ -32,44 +32,48 @@
         <style>
             header {
                 display: flex;
-                padding: 10px 30px;
+                padding: 0px 20px;
                 justify-content: center;
                 align-items: center;
                 box-shadow: 0px 0px 10px rgb(208, 208, 208);
-                background: white;
             }
 
             header>a {
                 display: block;
-                color: #333;
             }
 
             #header_logo {
-                height: 50px;
-                width: 50px;
+                max-height: 50px;
                 margin: 0px 20px;
             }
 
             .header-app-item {
-                padding: 20px;
+                /* padding: 20px; */
                 font-size: 14px;
+                display: inline-block;
+                margin: 20px;
+                width: 100px;
+                text-align: center;
+                color: #333;
+                background: white;
             }
 
             .header-app-item[pressed="true"] {
-                font-weight: bold;
+                color: rebeccapurple;
+                /* border-bottom: 2px solid rgb(247, 184, 76); */
+                font-style: italic;
             }
 
             .header-app-item:hover {
                 color: rebeccapurple;
             }
         </style>
-        <a href="#"><img id="header_logo" src="https://fate2.oss-cn-shanghai.aliyuncs.com/pool/20190310231013.png"
-                alt="FATECORE" /></a>
         <a class="header-app-item" pressed="true" href="http://irreader.fatecore.com">irreader</a>
-        <a class="header-app-item" href="http://openwebmonitor.fatecore.com">OpenWebMonitor</a>
-        <a class="header-app-item" href="http://overwork.fatecore.com">AppTimer</a>
-        <a class="header-app-item" href="http://fatecore.com">笔记</a>
-
+        <a class="header-app-item" href="http://owm.fatecore.com">OpenWebMonitor</a>
+        <a class="header-app-item" href="http://apptimer.fatecore.com">AppTimer</a>
+        <a class="header-app-item" href="https://fatecore.com">用户中心</a>
+        <a href="#"><img id="header_logo" src="http://fate2.oss-cn-shanghai.aliyuncs.com/kong/kong_icon.png"
+                alt="FATECORE" /></a>
     </header>
     <div id="world">
         <div id="head">
@@ -160,8 +164,8 @@
                 <footer id="foot">
                     <!-- <a href="https://t.me/joinchat/HFKP3AyR_CqzTs9mDntexw" target="_blank">Telegram: irreader Group</a> -->
                     <a>QQ群：568968683</a>
-                    <a href="http://www.miitbeian.gov.cn">浙ICP备17048489号-2</a>
-                    <a href="https://www.fatecore.com">&copy; 2018 fatecore.com</a>
+                    <a href="http://www.miitbeian.gov.cn">浙ICP备17048489号-26</a>
+                    <a href="https://www.fatecore.com">&copy; 2018-2019 fatecore.com</a>
                 </footer>
             </div>
             <div class="flex-push"></div>
