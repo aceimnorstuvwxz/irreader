@@ -21,8 +21,5 @@
 
 ![](content/libs/c/5.png)
 
-### Features
-
-![](content/libs/mkt_0.png)
 
 &copy; 2018-2019 fatecore.com
